@@ -1,5 +1,5 @@
 this is a test of conflicting stuff
 
-And so is this
+This line isn't necessary
 
 And this is, too
