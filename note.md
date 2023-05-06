@@ -1,4 +1,4 @@
-Week 1---this is out of order because Mark subbed
+**Week 1** (this is out of order because Mark subbed)
 
 Why are you here and why and I here
 	Rah rah stuff---web site that the world can see
@@ -14,7 +14,7 @@ Codepen
 	How do HTML, CSS and JS know about each other and interact? In Codepen? In general?
 	know what all the HTML/CS/JS stuff is called/for
 	why isn't my rotating border gradient rotating around---safari problem? Yep.  Chrome had better development tools (according to Mark).  Standardize on Chrome***
-	***W3schools.com tutorials
+	-->W3schools.com tutorials
 	JS is dangerous because browsers can capture all kinds of events
 	Is looking at webpage code a good idea?
 		seems like Mark gave some kind of caution about this...?
@@ -88,7 +88,7 @@ SSH and command line
 	don't worry about firehose syndrome
 
 
-Week 2
+**Week 2**
 
 Lee explains hard things like ask yourself first really well
 	I used to ask the smart guy down the hall, but then I started feeling bad...
@@ -178,7 +178,7 @@ What certification is the Instruction page talking about (with the checkmarks)?
 (How) Are required readings enforced?
 How does late work policy and is it actually beneficial?  How often do people get hosed by getting behind compared to getting partial credit when due?  Since we are building on earlier stuff, is there even a way forward without late leniency?
 Can we organize the GitHub stuff by day/week (like on my web schedule for other courses) in a semester-agnostic way?
-***What is the point of in-person class, if the slides and (more critically) all the talking for the slides (instruction) is online (is it, in fact)?***
+-->What is the point of in-person class, if the slides and (more critically) all the talking for the slides (instruction) is online (is it, in fact)?<--
 	should I use (some) different slides?
 	should I be saying (some) other stuff for slides in class?
 		a little bit of inspiring rah rah (TBL is just one regular dude), some useful info (leave rest to be read), demo???
@@ -196,29 +196,30 @@ Discord
 	did Lee's "what to delete so I'm not charged later" post make it into the instructions somewhere?
 
 
-Instruction
-AWS
+**Instruction question/notes**
+1. AWS
 	what is TLD (for click server)?
-Console
+2. Console
 	is it tracert(which doesn't work on my Mac terminal) or traceroute (which does)?
 
 
 
-To Do (is there an assignment list?)
-	create personal AWS account
-	Do GitHub assignment
-	Install VS Code
-	Startup Repo stuff in GitHub
-	Get a CodePen account and do the assignment
-	Come up with startup idea and do spec assignment
+**To Do**
+	1. create personal AWS account?
+	2. Do GitHub assignment
+	3. Install VS Code
+	4. Startup Repo stuff in GitHub
+	5. Get a CodePen account and do the assignment
+	6. Come up with startup idea and do spec assignment
 		something super simple the first time, just to do it and understand it
 		codenames (probably too hard)
 		some simple CC thing?
-	Go back over instruction and edit typos
-	Next batch of questions to Lee(/Mark?)
-	buy a domain name
-	register it with DNS
-	update Caddyfile
+	7. Go back over instruction and edit typos
+	8. Next batch of questions to Lee(/Mark?)
+	9. buy a domain name
+	10. register it with DNS
+	11. update Caddyfile
+	12. organize this file
 		
 
 
