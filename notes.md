@@ -195,6 +195,7 @@ Discord
 	is there a way to block posts before the current semester?  Is that a good idea?
 	did Lee's "what to delete so I'm not charged later" post make it into the instructions somewhere?
 What is a CLI?
+How do I git pull in VS Code?
 
 ## Instruction question/notes**
 1. AWS
