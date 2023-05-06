@@ -1,5 +1,5 @@
 this is a test of conflicting stuff
 
-And so is this
+But this isn't 
 
 And this is, too
