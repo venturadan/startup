@@ -194,7 +194,7 @@ Discord
 	how to add a @#@#@@ avatar?
 	is there a way to block posts before the current semester?  Is that a good idea?
 	did Lee's "what to delete so I'm not charged later" post make it into the instructions somewhere?
-
+What is a CLI?
 
 ## Instruction question/notes**
 1. AWS
@@ -203,6 +203,7 @@ Discord
 	is it tracert(which doesn't work on my Mac terminal) or traceroute (which does)?
 3. GitHub
 	Use the Git functionality of VS Code to add conflictTest.md to Git --> should this say to startup directory or something like that?
+	Better explain "***Please tell me whoe you are bit
 
 
 
@@ -210,8 +211,6 @@ Discord
 
 	1. create personal AWS account?
 	2. Do GitHub assignment
-	3. Install VS Code
-	4. Startup Repo stuff in GitHub
 	5. Get a CodePen account and do the assignment
 	6. Come up with startup idea and do spec assignment
 		something super simple the first time, just to do it and understand it
