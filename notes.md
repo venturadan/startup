@@ -211,18 +211,17 @@ How do I git pull in VS Code?
 ## To Do
 
 	1. create personal AWS account?
-	2. Do GitHub assignment
 	5. Get a CodePen account and do the assignment
 	6. Come up with startup idea and do spec assignment
 		something super simple the first time, just to do it and understand it
 		codenames (probably too hard)
 		some simple CC thing?
 	7. Go back over instruction and edit typos
+	7.5 Read all the servers instruction (and check out slides)
 	8. Next batch of questions to Lee(/Mark?)
 	9. buy a domain name
 	10. register it with DNS
 	11. update Caddyfile
 	12. organize this file
-	13. why isn't this working?		
 
 
