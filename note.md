@@ -1,4 +1,4 @@
-#Week 1 (this is out of order because Mark subbed)
+# Week 1 (this is out of order because Mark subbed)
 
 Why are you here and why and I here
 	Rah rah stuff---web site that the world can see
@@ -88,7 +88,7 @@ SSH and command line
 	don't worry about firehose syndrome
 
 
-#Week 
+# Week 2
 
 Lee explains hard things like ask yourself first really well
 	I used to ask the smart guy down the hall, but then I started feeling bad...
@@ -196,7 +196,7 @@ Discord
 	did Lee's "what to delete so I'm not charged later" post make it into the instructions somewhere?
 
 
-##Instruction question/notes**
+## Instruction question/notes**
 1. AWS
 	what is TLD (for click server)?
 2. Console
@@ -206,7 +206,7 @@ Discord
 
 
 
-##To Do
+## To Do
 
 	1. create personal AWS account?
 	2. Do GitHub assignment
