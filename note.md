@@ -201,10 +201,13 @@ Discord
 	what is TLD (for click server)?
 2. Console
 	is it tracert(which doesn't work on my Mac terminal) or traceroute (which does)?
+3. GitHub
+	Use the Git functionality of VS Code to add conflictTest.md to Git --> should this say to startup directory or something like that?
 
 
 
 **To Do**
+
 	1. create personal AWS account?
 	2. Do GitHub assignment
 	3. Install VS Code
