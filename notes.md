@@ -195,7 +195,8 @@ Discord
 	is there a way to block posts before the current semester?  Is that a good idea?
 	did Lee's "what to delete so I'm not charged later" post make it into the instructions somewhere?
 What is a CLI?
-How do I git pull in VS Code?
+How to IP and domain name fields relate?
+
 
 ## Instruction question/notes**
 1. AWS
@@ -208,6 +209,8 @@ How do I git pull in VS Code?
 4. Webservers
 	Is Go code running on port 80 as it the text says, or port 3000 like the code looks?
 	Not sure how to differentiate service, microservice and serverless function?
+	In slides 2.1, what this the point of the two-slide sequence on servers?
+	A few other 2.* slide questions, if we don't see them in class...
 5. Domain Names
 	What is the * in the image subdomain.*secondary.top
 6. AWS Route 53
@@ -220,17 +223,13 @@ How do I git pull in VS Code?
 ## To Do
 
 	1. create personal AWS account?
-	5. Get a CodePen account and do the assignment
 	6. Come up with startup idea and do spec assignment
 		something super simple the first time, just to do it and understand it
 		codenames (probably too hard)
 		some simple CC thing?
 	7. Go back over instruction and edit typos
-	7.5 Read all the servers instruction (and check out slides)
 	8. Next batch of questions to Lee(/Mark?)
-	9. buy a domain name
-	10. register it with DNS
-	11. update Caddyfile
 	12. organize this file
+	13. post The Stack article on Discord
 
 
