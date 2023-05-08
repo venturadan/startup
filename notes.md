@@ -204,7 +204,16 @@ How do I git pull in VS Code?
 	is it tracert(which doesn't work on my Mac terminal) or traceroute (which does)?
 3. GitHub
 	Use the Git functionality of VS Code to add conflictTest.md to Git --> should this say to startup directory or something like that?
-	Better explain "***Please tell me whoe you are bit
+	Better explain "Please tell me who you are" bit
+4. Webservers
+	Is Go code running on port 80 as it the text says, or port 3000 like the code looks?
+	Not sure how to differentiate service, microservice and serverless function?
+5. Domain Names
+	What is the * in the image subdomain.*secondary.top
+6. AWS Route 53
+	Why can't we do HTTPS with just and IP address?
+	What contact info should I use for the DNS if I'm using FHTL account (and not my personal one)?
+	if we register a wildcard subdomain, why in the troubleshooting guide does it suggest that the www subdomain won't work?
 
 
 
