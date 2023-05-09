@@ -228,7 +228,6 @@ How to IP and domain name fields relate?
 	13. post The Stack article on Discord
 	
 ## Questions for me to figure out myself
-
 	1. Learn all the stuff about Codepen
 		a. How do HTML, CSS and JS know about each other and interact? In Codepen? In general?
 		b. know what all the HTML/CS/JS stuff is called/for
