@@ -1,50 +1,45 @@
 # Week 1 (this is out of order because Mark subbed)
 
-Why are you here and why and I here
+1. Why are you here and why and I here
 	Rah rah stuff---web site that the world can see
-Very applied, learning tons of new stuff---be ok with that
-Jump to GITHUB repo
+2. Very applied, learning tons of new stuff---be ok with that
+3. Jump to GITHUB repo and explain
 	Build Simon and "Startup company" in parallel
-Spend lots of time, focus on mastery, stay up to date
-Codepen
-	Learn all the stuff about Codepen
-	HTML is structure, CSS is style, JS is behavior
+4. Spend lots of time, focus on mastery, stay up to date
+5. Codepen?
+	a. HTML is structure, CSS is style, JS is behavior
 		browser renders HTML code
 			it doesn't throw errors, it just does its best and you have to "think like the computer" to debug (but also printf/comment technique)---you have to fix stuff or it will come back to bite you
-	How do HTML, CSS and JS know about each other and interact? In Codepen? In general?
-	know what all the HTML/CS/JS stuff is called/for
-	why isn't my rotating border gradient rotating around---safari problem? Yep.  Chrome had better development tools (according to Mark).  Standardize on Chrome***
-	-->W3schools.com tutorials
-	JS is dangerous because browsers can capture all kinds of events
-	Is looking at webpage code a good idea?
-		seems like Mark gave some kind of caution about this...?
+	b. not all browsers play the same (show rotating border gradient doesn't work in safari problem (what about FireFox?) Chrome has better development tools (according to Mark).  Standardize on Chrome
+	c. W3schools.com tutorials
+	d. JS is dangerous because browsers can capture all kinds of events
 
-History
-	IPv4 (32bit addressing), IPv6 (128bit addressing)
-	Packet: address, IP, TCP, UDP, port (16bit addressing)
-	browser
-	routers
-	DNS (.com, .edu, .gov, .org, etc.?) subdomain servers
+6. History
+	a. IPv4 (32bit addressing), IPv6 (128bit addressing)
+	b. Packet: address, IP, TCP, UDP, port (16bit addressing)
+	c. browser
+	d. routers
+	e. DNS (.com, .edu, .gov, .org, etc.?) subdomain servers
 		"trick is getting other people to use your DNS"
 		weakness to attack---bottleneck
-	AWS (or whatever: google, Facebook, etc.)
+	f. AWS (or whatever: google, Facebook, etc.)
 			virtual machines
-	what about firewall???
-	Net neutrality
-	network address translation (NAT)
+	g. what about firewall???
+	h. Net neutrality
+	i. network address translation (NAT)
 		needed because we haven't adopted IPv6
 		lets us squeeze more machines into IPv4 by multiplexing using ports?
-	how to register a new machine/address onto the internet?
+	j. how to register a new machine/address onto the internet?
 		used to be just the address
 		but now more chaotic
-	punchcards-->personal computer-->virtual servers (command line)
+	k. punchcards-->personal computer-->virtual servers (command line)
 
-GitHub student backpack
 
-Use google to find answers and don't pay
+
+7. Use google to find answers and don't pay
 	how to weed out the bad stuff
 
-AWS Console
+8. AWS Console
 	How can you accidentally pull a Wingate?
 	what all is an AMI?
 		how to make my own
@@ -197,8 +192,10 @@ Discord
 What is a CLI?
 How to IP and domain name fields relate?
 
+# Week 3
 
-## Instruction question/notes**
+
+## Instruction question/notes
 1. AWS
 	what is TLD (for click server)?
 2. Console
@@ -231,5 +228,16 @@ How to IP and domain name fields relate?
 	8. Next batch of questions to Lee(/Mark?)
 	12. organize this file
 	13. post The Stack article on Discord
+	
+## Questions for me to figure out myself
+	1. Learn all the stuff about Codepen
+		a. How do HTML, CSS and JS know about each other and interact? In Codepen? In general?
+		b. know what all the HTML/CS/JS stuff is called/for
+
+## Questions for Lee/Mark
+	1. I remember Mark pushing at lunch for having this organized in week-sized chunks, and I think that is a good idea.  It will help the students know where they are in the course, what's coming when, etc.  Also, maybe the online folks require it?  If organized that way, it doesn't have to be tied to the calendare (so, for example, in Spring, for a T/TH class like what Lee is teaching now, a day is simply a week-sized chunk all at once.  It does impose more of a order than is currently there, which might make updating things a bit more of a pain; but, in theory, the main organization should be pretty stable soon? 
+	2. Is looking at webpage code a good idea?  It seems like Mark gave some kind of caution about this the first day, but I can't now remember what that was...?
+
+## Pedogogical Blatherings
 
 
