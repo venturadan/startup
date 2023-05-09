@@ -15,8 +15,8 @@
 	d. JS is dangerous because browsers can capture all kinds of events
 
 6. History
-![Whiteboard internet 1](board1).jpg
-![Whiteboard internet 2](board2).jpg
+![Whiteboard internet 1](board1.jpg)
+![Whiteboard internet 2](board2.jpg)
 
 	a. IPv4 (32bit addressing), IPv6 (128bit addressing)
 	b. Packet: address, IP, TCP, UDP, port (16bit addressing)
