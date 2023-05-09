@@ -15,9 +15,6 @@
 	d. JS is dangerous because browsers can capture all kinds of events
 
 6. History
-![Whiteboard internet 1](board1.jpg)
-![Whiteboard internet 2](board2.jpg)
-
 	a. IPv4 (32bit addressing), IPv6 (128bit addressing)
 	b. Packet: address, IP, TCP, UDP, port (16bit addressing)
 	c. browser
@@ -36,16 +33,14 @@
 		used to be just the address
 		but now more chaotic
 	k. punchcards-->personal computer-->virtual servers (command line)
-
+![Whiteboard internet 1](board1.jpg)
+![Whiteboard internet 2](board2.jpg)
 
 
 7. Use google to find answers and don't pay
 	how to weed out the bad stuff
 
 8. AWS Console
-	How can you accidentally pull a Wingate?
-	what all is an AMI?
-		how to make my own
 	spin up new server whenever
 	always save to GitHub!!!
 	use cs260.pem for class stuff so I don't have to chase key files
@@ -233,11 +228,17 @@ How to IP and domain name fields relate?
 	13. post The Stack article on Discord
 	
 ## Questions for me to figure out myself
+
 	1. Learn all the stuff about Codepen
 		a. How do HTML, CSS and JS know about each other and interact? In Codepen? In general?
 		b. know what all the HTML/CS/JS stuff is called/for
+	2. How can you accidentally pull a Wingate?
+	3. what all is an AMI?
+		how to make my own
+
 
 ## Questions for Lee/Mark
+
 	1. I remember Mark pushing at lunch for having this organized in week-sized chunks, and I think that is a good idea.  It will help the students know where they are in the course, what's coming when, etc.  Also, maybe the online folks require it?  If organized that way, it doesn't have to be tied to the calendare (so, for example, in Spring, for a T/TH class like what Lee is teaching now, a day is simply a week-sized chunk all at once.  It does impose more of a order than is currently there, which might make updating things a bit more of a pain; but, in theory, the main organization should be pretty stable soon? 
 	2. Is looking at webpage code a good idea?  It seems like Mark gave some kind of caution about this the first day, but I can't now remember what that was...?
 
