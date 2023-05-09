@@ -216,7 +216,6 @@ How to IP and domain name fields relate?
 
 
 ## To Do
-
 	1. create personal AWS account?
 	6. Come up with startup idea and do spec assignment
 		something super simple the first time, just to do it and understand it
@@ -237,7 +236,6 @@ How to IP and domain name fields relate?
 
 
 ## Questions for Lee/Mark
-
 	1. I remember Mark pushing at lunch for having this organized in week-sized chunks, and I think that is a good idea.  It will help the students know where they are in the course, what's coming when, etc.  Also, maybe the online folks require it?  If organized that way, it doesn't have to be tied to the calendare (so, for example, in Spring, for a T/TH class like what Lee is teaching now, a day is simply a week-sized chunk all at once.  It does impose more of a order than is currently there, which might make updating things a bit more of a pain; but, in theory, the main organization should be pretty stable soon? 
 	2. Is looking at webpage code a good idea?  It seems like Mark gave some kind of caution about this the first day, but I can't now remember what that was...?
 
