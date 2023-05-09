@@ -1,7 +1,7 @@
 # Week 1 (this is out of order because Mark subbed)
 
-1. Why are you here and why and I here
-	Rah rah stuff---web site that the world can see
+	1. Why are you here and why and I here
+		Rah rah stuff---web site that the world can see
 2. Very applied, learning tons of new stuff---be ok with that
 3. Jump to GITHUB repo and explain
 	Build Simon and "Startup company" in parallel
@@ -66,7 +66,7 @@
 	e. don't worry about firehose syndrome
 
 
-# Week 2
+# Week 2 (this is out of order because Mark subbed)
 
 1. Lee explains hard things like ask yourself first really well
 	a. I used to ask the smart guy down the hall, but then I started feeling bad...
