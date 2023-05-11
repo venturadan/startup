@@ -162,57 +162,55 @@
 ## To Do
 - [x] Read HTML instruction
 	- [] play with html tags I'm not familiar with
-- [x] Do HTML assignments
 - [] Come up with startup idea and do spec assignment
 	- something super simple the first time, just to do it and understand it
 	- codenames (probably too hard)
 	- some simple CC thing?
 - [] Go back over instruction and edit typos
 - [] organize/markup this file
-- [x] Next batch of questions to Lee(/Mark?)
-- [x] make Mark images smaller
+- [] Resolve last batch of questions to Lee(/Mark?)
 - [] create personal AWS account?
 
 ## Questions for me to figure out myself
-	1. Learn all the stuff about Codepen
-		1. How do HTML, CSS and JS know about each other and interact? In Codepen? In general?
-		2. know what all the HTML/CS/JS stuff is called/for
-	2. How can you accidentally pull a Wingate?
-	3. what all is an AMI?
-		1. how to make my own
-	4. Make sure to know what all the EC2 setup stuff is/does
-	5. why do we already have an index.html file on the new server?
-	6. what is the 0.0.0.0/??? Last part of this mean?
-	7. What does all the stuff in Caddyfile mean?
-	8. What does all the stuff in index.html mean?
-	9. Can I make my own name for a security group?
-	10. What is in an AMI and how to build your own?  Will we do it?
-	11. What is a hosted zone and how does making a duplicate mess things and how do you fix it (the stuff Lee explained about in class)
-	12. How is Lee making the videos he shows in the slides?
-	13. should I get Warp?
-	14. what do * * * mean in traceroute and why does it take so long?
-	15. is .gitignore just there so you don't have to white list each file (so you can "git add .")?
-		1. if I add . And then put ignore something, does that work? Do I have to do the other order?
-	what is -a flag? Vs. git add vs. git commit?
-		2. What does this mean-->"...the point of the stage (add) step, is so that you can commit some files while still leaving other..."
-	16. GitHub
-		1. how does it work generally?
-		2. how should I be interacting with this as shared resource?
-		3. I need to understand how the thing is organized
-		4. how do slides relate to instruction links in GitHub?
-		5. do I have to fork the repo to make a pull request for typo edits?  Or, can I just edit directly in the main branch?
-	17. How does PHP relate to html+css+js?
-	18. What is a CLI?
-	19. How do IP and domain name fields relate?
-	20. Why does CodePen seem to not incorporate changes I make?
-	21. what is the multi-buffer copy/paste thing for mac?
-	22. Run example password HTML code stuff and look at stuff (including Network stuff) in localhost browser?
-		1. forms: instead of post/get (which goes away and returns), we now can just use JS right in the browser
-		2. something related to JSON?
-	23. you can hover over stuff and it will link you to MDN reference page
-	25. learn about web scraping (and how it relates to JS and browsers)
-	26. rmdir -rf simon will delete files if not empty
-	27. why do all checkbox/radio buttens share the same name attribute value?
+1. Learn all the stuff about Codepen
+	1. How do HTML, CSS and JS know about each other and interact? In Codepen? In general?
+	2. know what all the HTML/CS/JS stuff is called/for
+2. How can you accidentally pull a Wingate?
+3. what all is an AMI?
+	1. how to make my own
+4. Make sure to know what all the EC2 setup stuff is/does
+5. why do we already have an index.html file on the new server?
+6. what is the 0.0.0.0/??? Last part of this mean?
+7. What does all the stuff in Caddyfile mean?
+8. What does all the stuff in index.html mean?
+9. Can I make my own name for a security group?
+10. What is in an AMI and how to build your own?  Will we do it?
+11. What is a hosted zone and how does making a duplicate mess things and how do you fix it (the stuff Lee explained about in class)
+12. How is Lee making the videos he shows in the slides?
+13. should I get Warp?
+14. what do * * * mean in traceroute and why does it take so long?
+15. is .gitignore just there so you don't have to white list each file (so you can "git add .")?
+	1. if I add . And then put ignore something, does that work? Do I have to do the other order?
+		- what is -a flag? Vs. git add vs. git commit?
+	2. What does this mean-->"...the point of the stage (add) step, is so that you can commit some files while still leaving other..."
+16. GitHub
+	1. how does it work generally?
+	2. how should I be interacting with this as shared resource?
+	3. I need to understand how the thing is organized
+	4. how do slides relate to instruction links in GitHub?
+	5. do I have to fork the repo to make a pull request for typo edits?  Or, can I just edit directly in the main branch?
+17. How does PHP relate to html+css+js?
+18. What is a CLI?
+19. How do IP and domain name fields relate?
+20. Why does CodePen seem to not incorporate changes I make?
+21. what is the multi-buffer copy/paste thing for mac?
+22. Run example password HTML code stuff and look at stuff (including Network stuff) in localhost browser?
+	1. forms: instead of post/get (which goes away and returns), we now can just use JS right in the browser
+	2. something related to JSON?
+23. you can hover over stuff and it will link you to MDN reference page
+25. learn about web scraping (and how it relates to JS and browsers)
+26. rmdir -rf simon will delete files if not empty
+27. why do all checkbox/radio buttens share the same name attribute value?
 
 ## Questions for Lee/Mark
 1. I remember Mark pushing at lunch for having this organized in week-sized chunks, and I think that is a good idea.  It will help the students know where they are in the course, what's coming when, etc.  Also, maybe the online folks require it?  If organized that way, it doesn't have to be tied to the calendare (so, for example, in Spring, for a T/TH class like what Lee is teaching now, a day is simply a week-sized chunk all at once.  It does impose more of a order than is currently there, which might make updating things a bit more of a pain; but, in theory, the main organization should be pretty stable soon? Can we organize the GitHub stuff by day/week (like on my web schedule for other courses) in a semester-agnostic way?
