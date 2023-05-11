@@ -31,32 +31,32 @@
 		- used to be just the address
 		- but now more chaotic
 	11. punchcards-->personal computer-->virtual servers (command line)
-	![Whiteboard internet 1](images/board1.jpg)![Whiteboard internet 2](images/board2.jpg)
+	![Whiteboard internet 1](images/board1.jpeg)
+	![Whiteboard internet 2](images/board2.jpg)
 7. Use google to find answers and don't pay
-	how to weed out the bad stuff
+	1. how to weed out the bad stuff
 8. AWS Console
-	a. spin up new server whenever
-	b. always save to GitHub!!!
-	c. use cs260.pem for class stuff so I don't have to chase key files
-	d. if you create a new key pair, make sure you download it and save it somewhere (local/safe)
-	e. terminate/stop/start server, etc.
-	g. launch
-	h. paste address into browser (use http?)
-	
-	i. manage firewall on security tab
-	j. don't be afraid to make mistakes---do several server setups so it's no big
-	k. we didn't give it a name yet/DNS address?
-		Route53
-		how to connect to new server(s)? And disconnect from terminated ones?
-			edit Caddyfile
-	l. HTTPS certificate
+	1. spin up new server whenever
+	2. always save to GitHub!!!
+	3. use cs260.pem for class stuff so I don't have to chase key files
+	4. if you create a new key pair, make sure you download it and save it somewhere (local/safe)
+	5. terminate/stop/start server, etc.
+	6. launch
+	7. paste address into browser (use http?)
+	8. manage firewall on security tab
+	9. don't be afraid to make mistakes---do several server setups so it's no big
+	10. we didn't give it a name yet/DNS address?
+		- Route53
+		- how to connect to new server(s)? And disconnect from terminated ones?
+			- edit Caddyfile
+	11. HTTPS certificate
 9. SSH and command line
-	a. we ssh into this server we are creating
-	b. check out index.html
- 	c. what is Caddy?
-		edit Caddy file
-	d. vi, emacs, nano, (s)ftp
-	e. don't worry about firehose syndrome
+	1. we ssh into this server we are creating
+	2. check out index.html
+ 	3. what is Caddy?
+		- edit Caddy file
+	4. vi, emacs, nano, (s)ftp
+	5. don't worry about firehose syndrome
 
 # Week 2 (this is out of order because Mark subbed)
 
