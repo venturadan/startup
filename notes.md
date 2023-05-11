@@ -103,10 +103,10 @@
 
 # Week 3
 1. Elevator pitch
- 	a. passion
-	b. what is the problem?
- 	c. what is the win?
-	d. how you are going to do it?
+ 	1. passion
+	2. what is the problem?
+ 	3. what is the win?
+	4. how you are going to do it?
 2. dropped "changing root domain" from course?
 3. lots of time to answer questions before we covered anything
 4. we don't have the browser just read files directly from our HD (if we are just local, especially) because of permissions/security issues/complexity
@@ -123,10 +123,10 @@
 15. <forms> are kind of deprecated by JS now, but still...
 16. why does controls=false not get rid of controls in Media code?
 17. where to find videos, etc that you can access in CodePen?
-	look at webpage source and link there or just host it locally?
+	1. look at webpage source and link there or just host it locally?
 18. Is there cool SVG repos somewhere?
 19. In HTML, you have to use multiple pages, one for each "view"
-	late, we use one page and JS to modify the page content dynamically
+	2. later, we use one page and JS to modify the page content dynamically
 20. make the whole simon.html app live coding?  Or is that a bad idea?
 21. Show how to deploy
 22. cover the whole thing again for startup
@@ -158,7 +158,6 @@
 7. HTML Structure
 	some of the assignment instructions are misleading or don't quite match the output shown
 
-
 ## To Do
 - [x] Read HTML instruction
 	- [] play with html tags I'm not familiar with
@@ -167,7 +166,6 @@
 	- codenames (probably too hard)
 	- some simple CC thing?
 - [] Go back over instruction and edit typos
-- [] organize/markup this file
 - [] Resolve last batch of questions to Lee(/Mark?)
 - [] create personal AWS account?
 
