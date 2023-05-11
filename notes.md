@@ -156,10 +156,13 @@
 	Why can't we do HTTPS with just and IP address?
 	What contact info should I use for the DNS if I'm using FHTL account (and not my personal one)?
 	if we register a wildcard subdomain, why in the troubleshooting guide does it suggest that the www subdomain won't work?
+7. HTML Structure
+	some of the assignment instructions are misleading or don't quite match the output shown
 
 
 ## To Do
 	1. Read HTML instruction
+		play with html tags I'm not familiar with
 	2. Do HTML assignments
 	3. Come up with startup idea and do spec assignment
 		something super simple the first time, just to do it and understand it
@@ -208,7 +211,6 @@
 		forms: instead of post/get (which goes away and returns), we now can just use JS right in the browser
 		something related too JSON?
 	23. you can hover over stuff and it will link you to MDN reference page
-	24. will VS Code run from command line with "code"?  If not, get that set up
 	25. learn about web scraping (and how it relates to JS and browsers)
 	26. rmdir -rf simon will delete files if not empty
 
