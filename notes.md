@@ -1,36 +1,36 @@
 # Week 1 (this is out of order because Mark subbed)
 1. Why are you here and why and I here
-	Rah rah stuff---web site that the world can see
-2. Very applied, learning tons of new stuff---be ok with that
-3. Jump to GITHUB repo and explain
-	Build Simon and "Startup company" in parallel
+	- Rah rah stuff---web site that the world can see
+3. Very applied, learning tons of new stuff---be ok with that
+4. Jump to GITHUB repo and explain
+	- Build Simon and "Startup company" in parallel
 4. Spend lots of time, focus on mastery, stay up to date
 5. Codepen?
-	a. HTML is structure, CSS is style, JS is behavior
-		browser renders HTML code
-			it doesn't throw errors, it just does its best and you have to "think like the computer" to debug (but also printf/comment technique)---you have to fix stuff or it will come back to bite you
-	b. not all browsers play the same (show rotating border gradient doesn't work in safari problem (what about FireFox?) Chrome has better development tools (according to Mark).  Standardize on Chrome
-	c. W3schools.com tutorials
-	d. JS is dangerous because browsers can capture all kinds of events
+	1. HTML is structure, CSS is style, JS is behavior
+		- browser renders HTML code
+			- it doesn't throw errors, it just does its best and you have to "think like the computer" to debug (but also printf/comment technique)---you have to fix stuff or it will come back to bite you
+	2. not all browsers play the same (show rotating border gradient doesn't work in safari problem (what about FireFox?) Chrome has better development tools (according to Mark).  Standardize on Chrome.
+	3. cW3schools.com tutorials
+	4. JS is dangerous because browsers can capture all kinds of events
 6. History
-	a. IPv4 (32bit addressing), IPv6 (128bit addressing)
-	b. Packet: address, IP, TCP, UDP, port (16bit addressing)
-	c. browser
-	d. routers
-	e. DNS (.com, .edu, .gov, .org, etc.?) subdomain servers
-		"trick is getting other people to use your DNS"
-		weakness to attack---bottleneck
-	f. AWS (or whatever: google, Facebook, etc.)
-			virtual machines
-	g. what about firewall???
-	h. Net neutrality
-	i. network address translation (NAT)
-		needed because we haven't adopted IPv6
-		lets us squeeze more machines into IPv4 by multiplexing using ports?
-	j. how to register a new machine/address onto the internet?
-		used to be just the address
-		but now more chaotic
-	k. punchcards-->personal computer-->virtual servers (command line)
+	1. IPv4 (32bit addressing), IPv6 (128bit addressing)
+	2. Packet: address, IP, TCP, UDP, port (16bit addressing)
+	3. browser
+	4. routers
+	5. DNS (.com, .edu, .gov, .org, etc.?) subdomain servers
+		- "trick is getting other people to use your DNS"
+		- weakness to attack---bottleneck
+	6. AWS (or whatever: google, Facebook, etc.)
+		- virtual machines
+	7. what about firewall???
+	8. Net neutrality
+	9. network address translation (NAT)
+		- needed because we haven't adopted IPv6
+		- lets us squeeze more machines into IPv4 by multiplexing using ports?
+	10. how to register a new machine/address onto the internet?
+		- used to be just the address
+		- but now more chaotic
+	11. punchcards-->personal computer-->virtual servers (command line)
 ![Whiteboard internet 1](board1.jpg)
 ![Whiteboard internet 2](board2.jpg)
 7. Use google to find answers and don't pay
