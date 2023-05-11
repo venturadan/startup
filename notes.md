@@ -213,6 +213,7 @@
 	23. you can hover over stuff and it will link you to MDN reference page
 	25. learn about web scraping (and how it relates to JS and browsers)
 	26. rmdir -rf simon will delete files if not empty
+	27. why do all checkbox/radio buttens share the same name attribute value?
 
 ## Questions for Lee/Mark
 	1. I remember Mark pushing at lunch for having this organized in week-sized chunks, and I think that is a good idea.  It will help the students know where they are in the course, what's coming when, etc.  Also, maybe the online folks require it?  If organized that way, it doesn't have to be tied to the calendare (so, for example, in Spring, for a T/TH class like what Lee is teaching now, a day is simply a week-sized chunk all at once.  It does impose more of a order than is currently there, which might make updating things a bit more of a pain; but, in theory, the main organization should be pretty stable soon? Can we organize the GitHub stuff by day/week (like on my web schedule for other courses) in a semester-agnostic way?
@@ -251,6 +252,17 @@
 			a little bit of inspiring rah rah (TBL is just one regular dude), some useful info (leave rest to be read), demo???
 	6. How to balance answering questions with moving along (especially when they are remedial, and we've already talke about it)?
 	7. Watch out for pacing (duh)
+
+## Assignment stuff
+	1. CONSOLE: xxyy
+	2. GITHUB: https://github.com/venturadan/startup
+	3. CODEPEN: 
+	4. STARTUP Spec: 
+	5. AWS EC2: http://44.211.87.91
+	6. HTTPS: https://wafflesandcheese.click
+	7. HTML Structure: https://codepen.io/venturadan/pen/QWZrMox
+	8. HTML Input: https://codepen.io/venturadan/pen/PoyeJoO
+	9. HTML Media: https://codepen.io/venturadan/pen/ZEqoXBg
 
 
 
