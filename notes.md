@@ -133,6 +133,37 @@
 23. HTML structure doesn't even (any more) need to worry about placement/location, just the elements/pieces, which can just appear linearly for now
 24. Talk about what markup is and what we are doing with it 
 
+# Week 4
+1. Don't be late---I can't penalize you enough to reflect how much you are penalizing yourself by getting behind (especially Spr/Su)
+2. CSS is just a bunch of rules that select an HTML element and apply declarations to it
+	1. Browser introduces some defaulty rules; some CSS devs immediately wipe all those (how?) for better control
+	2. look at element/styles in browser dev tools
+4. Three ways to style (cascading preference order, highest to lowest)
+	1. inline style attribute in HTML (using CSS declaration)---kind of lame/old/coupled/clunky
+	2. put the rule separately in HTML
+	3. put rules in an external file---best/modular approach
+5. That's all there is to it---simple to learn; lifetime to master---it's subtle
+6. Bootstrap is a CSS framework we are using???
+7. `command /` comments out a highlighted block in Code
+8. Some styling notes
+	1. `font-size 3em` means 3x the width of the m in the parent font (size)
+	2. 3rem is relative to the document, instead of the parent font
+	3. start/end instead of left/right for language agnostic placment
+9. Box model---In HTML, everything is boxes:content, padding, border, margin---make sure you are on the right element, and look at elements/style box view
+10. you can tweak everything in browser debugger
+11. Get to know all the CSS stuff
+12. HTML is content/semantic "structure", but not location/relation structure
+13. learn more about fonts and animation (we went way too fast)
+14. what is the `display` style thing that we skipped?
+15. native app and responsive design are different
+17. not my job to know all the HTML/CSS/etc.  My job is to give mental models, work flow, how to debug/problem solve, find answers, etc.
+18. `<meta name="viewport"/>` tells device to not guess scaling
+	1. Lots of stuff we do is because of legacy problems (like when pages weren't written well for a device) that still haven't gone away yet
+19. Froggy?
+20. bootstrap framework
+21. CDN content delivery network
+
+
 ## Instruction question/notes
 1. AWS
 	what is TLD (for click server)?
@@ -167,6 +198,11 @@
 	- some simple CC thing?
 - [] Go back over instruction and edit typos
 - [] Resolve last batch of questions to Lee(/Mark?)
+- [] CSS assignments
+	-[] practice
+	-[] flex
+	-[] framework
+	-[] startup
 - [] create personal AWS account?
 
 ## Questions for me to figure out myself
@@ -209,6 +245,7 @@
 25. learn about web scraping (and how it relates to JS and browsers)
 26. rmdir -rf simon will delete files if not empty
 27. why do all checkbox/radio buttens share the same name attribute value?
+28. go back and play with the ribbons in CodePen again and actually make changes this time (save files and debug)
 
 ## Questions for Lee/Mark
 1. I remember Mark pushing at lunch for having this organized in week-sized chunks, and I think that is a good idea.  It will help the students know where they are in the course, what's coming when, etc.  Also, maybe the online folks require it?  If organized that way, it doesn't have to be tied to the calendare (so, for example, in Spring, for a T/TH class like what Lee is teaching now, a day is simply a week-sized chunk all at once.  It does impose more of a order than is currently there, which might make updating things a bit more of a pain; but, in theory, the main organization should be pretty stable soon? Can we organize the GitHub stuff by day/week (like on my web schedule for other courses) in a semester-agnostic way?
@@ -247,6 +284,7 @@
 		- a little bit of inspiring rah rah (TBL is just one regular dude), some useful info (leave rest to be read), demo???
 6. How to balance answering questions with moving along (especially when they are remedial, and we've already talke about it)?
 7. Watch out for pacing (duh)
+8. HTML isn't about structure; it's about content?
 
 ## Assignment stuff
 1. CONSOLE: xxyy
