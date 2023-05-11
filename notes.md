@@ -110,9 +110,9 @@
 2. dropped "changing root domain" from course?
 3. lots of time to answer questions before we covered anything
 4. we don't have the browser just read files directly from our HD (if we are just local, especially) because of permissions/security issues/complexity
-5. <!DOCTYPE html> means we are using HTML 5
+5. `<!DOCTYPE html>` means we are using HTML 5
 6. language attribute just lets google, etc. know what language this is (in case it wants to find that kind of thing or translate or whatever)
-7. localhost 127.0.0.1 loopback (LiveServer uses this)
+7. localhost `127.0.0.1` loopback (LiveServer uses this)
 8. TBL is famous WebFather because he thought of anchor tags---anyone can change the world
 9. HTML steals from SGML
 10. DOM (doc object model) is a tree representation in memory
@@ -120,8 +120,8 @@
 12. HTML Slide (3.1) "Header" is overloaded and misleading
 13. CodePen assumes <!DOCTYPE html><html></html> and doesn't include it
 14. Make clean structure with as much semantics as possible (for readers, google, etc.)
-15. <forms> are kind of deprecated by JS now, but still...
-16. why does controls=false not get rid of controls in Media code?
+15. `<forms>` are kind of deprecated by JS now, but still...
+16. why does `controls=false` not get rid of controls in Media code?
 17. where to find videos, etc that you can access in CodePen?
 	1. look at webpage source and link there or just host it locally?
 18. Is there cool SVG repos somewhere?
