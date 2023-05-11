@@ -31,8 +31,7 @@
 		- used to be just the address
 		- but now more chaotic
 	11. punchcards-->personal computer-->virtual servers (command line)
-![Whiteboard internet 1](board1.jpg)
-![Whiteboard internet 2](board2.jpg)
+![Whiteboard internet 1](images/board1.jpg)![Whiteboard internet 2](images/board2.jpg)
 7. Use google to find answers and don't pay
 	how to weed out the bad stuff
 8. AWS Console
