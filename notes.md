@@ -61,45 +61,45 @@
 # Week 2 (this is out of order because Mark subbed)
 
 1. Lee explains hard things like ask yourself first really well
-	a. I used to ask the smart guy down the hall, but then I started feeling bad...
-	b. lifetime learning skill to say figure it out
+	1. I used to ask the smart guy down the hall, but then I started feeling bad...
+	2. lifetime learning skill to say figure it out
 2. Three levels of "server":
-	a. We can use about:blank, open inspector and write html, css and js right in the browser (local, no server)
-	b. you can also run a server on your local machine (local, server)
-	c. then, nonlocal server
+	1. We can use about:blank, open inspector and write html, css and js right in the browser (local, no server)
+	2. you can also run a server on your local machine (local, server)
+	3. then, nonlocal server
 3. What is websocket? How is it peer-to-peer and how does this give us more power?
 4. You CANNOT get behind--> goes from being an awesome class to NO!!!!!!
 5. Caddy is a multi-reverse proxy/gateway that figures out which service to serve (we have two: Simon, Startup)
-	what is the bit about certificates
-	adding services (instruction)
-		daemon
+	1. what is the bit about certificates
+	2. adding services (instruction)
+		- daemon
 6. Node.js is just javascript running outside the environment---pull the runtime engine out of the browser and use it from the command line
 7. Talk about mental models and their importance
 8. OS
-	a. Mac/Linux are Posix compliant
-	b. Windows isn't--powershell, so need to get gitbash or something else Posix compliant
-	c. WSL is windows subsystem for Linux---be careful
+	1. Mac/Linux are Posix compliant
+	2. Windows isn't--powershell, so need to get gitbash or something else Posix compliant
+	3. WSL is windows subsystem for Linux---be careful
 9. Console
-	a. historical pic
-	b. console
-		file explorer (command line)
-		execute programs
-	c. deployment script---pushes dev code to prod server
-		show doing it by hand first?
-	d. if server changes make AWS (or whatever) fuss about an unknown host, go to .ssh directory (on local machine?) and delete knownhosts? file
+	1. historical pic
+	2. console
+		- file explorer (command line)
+		- execute programs
+	3. deployment script---pushes dev code to prod server
+		- show doing it by hand first?
+	4. if server changes make AWS (or whatever) fuss about an unknown host, go to .ssh directory (on local machine?) and delete knownhosts? file
 10. Visual Studio Code to develop
-	a. GitLens extension
-	b. Live Server extension
-	c. command shift P
-	d. command P
+	1. GitLens extension
+	2. Live Server extension
+	3. command shift P
+	4. command P
 11. Use AWS Secrets to store stuff like .pem file if you want to be able to get it from multiple machines, share it, etc.
 12. Git
-	a. use command line
-	b. editor
-	c. visualizing git
-	d. what is the gitconfig slide for?
+	1. use command line
+	2. editor
+	3. visualizing git
+	4. what is the gitconfig slide for?
 13. Github
-	a. Don't nest repos
+	1. Don't nest repos
 
 # Week 3
 1. Elevator pitch
