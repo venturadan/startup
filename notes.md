@@ -175,11 +175,11 @@
 
 ## Questions for me to figure out myself
 	1. Learn all the stuff about Codepen
-		a. How do HTML, CSS and JS know about each other and interact? In Codepen? In general?
-		b. know what all the HTML/CS/JS stuff is called/for
+		1. How do HTML, CSS and JS know about each other and interact? In Codepen? In general?
+		2. know what all the HTML/CS/JS stuff is called/for
 	2. How can you accidentally pull a Wingate?
 	3. what all is an AMI?
-		how to make my own
+		1. how to make my own
 	4. Make sure to know what all the EC2 setup stuff is/does
 	5. why do we already have an index.html file on the new server?
 	6. what is the 0.0.0.0/??? Last part of this mean?
@@ -192,23 +192,23 @@
 	13. should I get Warp?
 	14. what do * * * mean in traceroute and why does it take so long?
 	15. is .gitignore just there so you don't have to white list each file (so you can "git add .")?
-		a. if I add . And then put ignore something, does that work? Do I have to do the other order?
+		1. if I add . And then put ignore something, does that work? Do I have to do the other order?
 	what is -a flag? Vs. git add vs. git commit?
-		b. What does this mean-->"...the point of the stage (add) step, is so that you can commit some files while still leaving other..."
+		2. What does this mean-->"...the point of the stage (add) step, is so that you can commit some files while still leaving other..."
 	16. GitHub
-		a. how does it work generally?
-		b. how should I be interacting with this as shared resource?
-		c. I need to understand how the thing is organized
-		d. how do slides relate to instruction links in GitHub?
-		e. do I have to fork the repo to make a pull request for typo edits?  Or, can I just edit directly in the main branch?
+		1. how does it work generally?
+		2. how should I be interacting with this as shared resource?
+		3. I need to understand how the thing is organized
+		4. how do slides relate to instruction links in GitHub?
+		5. do I have to fork the repo to make a pull request for typo edits?  Or, can I just edit directly in the main branch?
 	17. How does PHP relate to html+css+js?
 	18. What is a CLI?
 	19. How do IP and domain name fields relate?
 	20. Why does CodePen seem to not incorporate changes I make?
 	21. what is the multi-buffer copy/paste thing for mac?
 	22. Run example password HTML code stuff and look at stuff (including Network stuff) in localhost browser?
-		forms: instead of post/get (which goes away and returns), we now can just use JS right in the browser
-		something related too JSON?
+		1. forms: instead of post/get (which goes away and returns), we now can just use JS right in the browser
+		2. something related to JSON?
 	23. you can hover over stuff and it will link you to MDN reference page
 	25. learn about web scraping (and how it relates to JS and browsers)
 	26. rmdir -rf simon will delete files if not empty
@@ -222,10 +222,10 @@
 	5. What about the stuff in 1.7 slides we didn't cover and I don't understand?
 		ask Lee about the staging/production envs and how the automated/continuous integration works (and why is there still a manual link there?)
 	6. How are we suppose to share/interact with course GitHub repo? Do I clone the GitHub repo for my class?
-		Are the slides a shared resource, or should we all be doing our own (approach)?
-		What if, in my course, I don't like/wouldn't say/would say differently than Lee some of the stuff that is in the instruction?
-			small example: I do office hours by appointment, not W9-11...
-			I did not (have a Simon game)---I did!  Personal sounds fun and intimate, but it's personal...
+		- Are the slides a shared resource, or should we all be doing our own (approach)?
+		- What if, in my course, I don't like/wouldn't say/would say differently than Lee some of the stuff that is in the instruction?
+			- small example: I do office hours by appointment, not W9-11...
+			- I did not (have a Simon game)---I did!  Personal sounds fun and intimate, but it's personal...
 	7. Is working in class a good thing or no?  Should they all bring laptops for doing so?
 	8. Slides say startup is 40%, but Lee said 60% in class...?
 	9. What certification is the Instruction page talking about (with the checkmarks)?
@@ -234,21 +234,21 @@
 	12. Next/back navigation in GitHub?  goto webserver is kind of gross?
 	13. Do we worry at all about students just using code from other students public repos?
 	14. Discord
-		is there a way to block posts before the current semester?  Is that a good idea?
-		did Lee's "what to delete so I'm not charged later" post make it into the instructions somewhere?
+		- is there a way to block posts before the current semester?  Is that a good idea?
+		- did Lee's "what to delete so I'm not charged later" post make it into the instructions somewhere?
 
 ## Pedogogical Blatherings
 	1. Is Menti.com a useful tool?
 	2. What about a high-level diagram that shows the big picture?
-		a. there's one on GitHub about the class tech (mostly), and it should be in the slides?
-		b. should we have one with underlying internet stuff at the level Mark had on the board as well?
-		c. and how do those two relate?
+		1. there's one on GitHub about the class tech (mostly), and it should be in the slides?
+		2. should we have one with underlying internet stuff at the level Mark had on the board as well?
+		3. and how do those two relate?
 	3. Can my PhD students get paid enough to TA this course?
 	4. Does the course view/organization in GitHub/Canvas make sense?
 	5. What is the point of in-person class, if the slides and (more critically) all the talking for the slides (instruction) is online (is it, in fact)?
-		a. should I use (some) different slides?
-		b. should I be saying (some) other stuff for slides in class?
-			a little bit of inspiring rah rah (TBL is just one regular dude), some useful info (leave rest to be read), demo???
+		1. should I use (some) different slides?
+		2. should I be saying (some) other stuff for slides in class?
+			- a little bit of inspiring rah rah (TBL is just one regular dude), some useful info (leave rest to be read), demo???
 	6. How to balance answering questions with moving along (especially when they are remedial, and we've already talke about it)?
 	7. Watch out for pacing (duh)
 
