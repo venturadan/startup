@@ -126,7 +126,7 @@
 	1. look at webpage source and link there or just host it locally?
 18. Is there cool SVG repos somewhere?
 19. In HTML, you have to use multiple pages, one for each "view"
-	2. later, we use one page and JS to modify the page content dynamically
+	1. later, we use one page and JS to modify the page content dynamically
 20. make the whole simon.html app live coding?  Or is that a bad idea?
 21. Show how to deploy
 22. cover the whole thing again for startup
