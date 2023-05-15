@@ -12,7 +12,7 @@ The world needs more memes---there just aren't enought out there.  Plus, how fun
 
 Here is a sequence diagram that shows how to people would interact with the backend to vote.
 
-![Voting sequence diagram](votingSequenceDiagram.png)
+![Meme sequence diagram](images/memeSequenceDiagram.png)
 
 ### Key features
 
