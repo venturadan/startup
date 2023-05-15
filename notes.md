@@ -196,12 +196,14 @@
 ## To Do
 - [x] Read HTML instruction
 	- [] play with html tags I'm not familiar with
-- [] Come up with startup idea and do spec assignment
+- [] HTML assignments
+	-[] startup
+- [x] Come up with startup idea and do spec assignment
 	- something super simple the first time, just to do it and understand it
 	- codenames (probably too hard)
 	- some simple CC thing?
 - [] Resolve last batch of questions to Lee(/Mark?)
-- [] Read CSS Instruction
+- [x] Read CSS Instruction
 - [] CSS assignments
 	-[] practice
 	-[] flex
@@ -295,7 +297,7 @@
 1. CONSOLE: xxyy
 2. GITHUB: https://github.com/venturadan/startup
 3. CODEPEN: 
-4. STARTUP Spec: 
+4. STARTUP Spec: https://github.com/venturadan/startup
 5. AWS EC2: http://44.211.87.91
 6. HTTPS: https://wafflesandcheese.click
 7. HTML Structure: https://codepen.io/venturadan/pen/QWZrMox
