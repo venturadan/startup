@@ -196,8 +196,8 @@
 ## To Do
 - [x] Read HTML instruction
 	- [] play with html tags I'm not familiar with
-- [] HTML assignments
-	-[] startup
+- [x] HTML assignments
+	-[x] startup
 - [x] Come up with startup idea and do spec assignment
 	- something super simple the first time, just to do it and understand it
 	- codenames (probably too hard)
@@ -303,6 +303,7 @@
 7. HTML Structure: https://codepen.io/venturadan/pen/QWZrMox
 8. HTML Input: https://codepen.io/venturadan/pen/PoyeJoO
 9. HTML Media: https://codepen.io/venturadan/pen/ZEqoXBg
+10. HTML startup: https://startup.wafflesandcheese.click
 
 
 
