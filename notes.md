@@ -188,6 +188,10 @@
 	if we register a wildcard subdomain, why in the troubleshooting guide does it suggest that the www subdomain won't work?
 7. HTML Structure
 	some of the assignment instructions are misleading or don't quite match the output shown
+8. Simon CSS
+	Should this not appear here? It seems like maybe a copy/paste error from the startup CSS page?
+	"Update your startup repository notes.md to record, what you modified and added with this deliverable. The TAs will only grade things that have been clearly described as being completed. Review the voter app as an example. Also update your notes.md to record what you learned."
+	
 
 ## To Do
 - [x] Read HTML instruction
@@ -196,13 +200,14 @@
 	- something super simple the first time, just to do it and understand it
 	- codenames (probably too hard)
 	- some simple CC thing?
-- [] Go back over instruction and edit typos
 - [] Resolve last batch of questions to Lee(/Mark?)
+- [] Read CSS Instruction
 - [] CSS assignments
 	-[] practice
 	-[] flex
 	-[] framework
 	-[] startup
+- [] Go back over instruction and edit typos
 - [] create personal AWS account?
 
 ## Questions for me to figure out myself
