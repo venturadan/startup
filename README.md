@@ -8,7 +8,9 @@ The world needs more memes---there just aren't enough out there.  Plus, how fun 
 
 ### Design
 
-![Mock](images/memeMockup.pdf)
+![Mock](images/memeMockup.png)
+
+Note, there is one additional screen (not shown) for the create functionality that displays the created meme.
 
 Here is a sequence diagram that shows how to people would interact with the backend to vote.
 
