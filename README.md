@@ -4,7 +4,7 @@
 
 ### Elevator pitch
 
-The world needs more memes---there just aren't enought out there.  Plus, how fun would it be to create and share them with your people.  The Meminator 2000 is the solution.  It will allow you to create your own, personal memes and save them to a database where you are your friends can enjoy them forever.
+The world needs more memes---there just aren't enough out there.  Plus, how fun would it be to create and share them with your people?  The Meminator 2000 is the solution.  It will allow you to create your own, personal memes and save them to a database where you and your friends can enjoy them forever.
 
 ### Design
 
@@ -18,7 +18,7 @@ Here is a sequence diagram that shows how to people would interact with the back
 
 - Secure login over HTTPS
 - Ability to select an image to use for your meme
-- Display of images choices
+- Display of image choices
 - Ability to insert text in image
 - Notification to all users of newly created meme
 - Memes are persistently stored
