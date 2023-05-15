@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meminator 2000 HTML</title>
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <!-- Use header, main, and footer elements to give semantic structure -->
+    <header>
+      <h1>Meminator 2000</h1>
+
+      <!-- Navigation elements -->
+      <nav>
+        <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
+        <menu>
+          <li><a href="logout.html">Logout</a></li>
+          <li><a href="browse.html">Browse</a></li>
+          <li><a href="create.html">Create</a></li>
+        </menu>
+      </nav>
+
+      <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
+      <hr />
+    </header>
+
+    <main>
+      <h1>Browse</h1>
+      <p>Memes displayed most recent first</p>
+      <div class="image list">
+        <ul>
+            <li><img width="300"
+              src="https://i.imgflip.com/26am.jpg" />
+            <li><img width="300"
+              src="https://i.imgflip.com/1bij.jpg">
+                </iframe>
+        </ul>
+      </div>
+      <!-- We can store the images at imgflip.com?  If so, then our DB just stores a URL pointing there; 
+      howevever, they may expire if not viewed.  So, we could alternatively store the original image id and 
+      text in the DB and recreate them with the API every time someone wants to see it (or just show them the
+      pair and give them the option to regenerate it.) -->
+    </main>
+
+    <footer>
+      <hr />
+      <span class="text-reset">Dan Ventura</span>
+      <br />
+      <a href="https://github.com/venturadan/startup">GitHub</a>
+    </footer>
+  </body>
+</html>
