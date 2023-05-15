@@ -8,7 +8,7 @@ The world needs more memes---there just aren't enough out there.  Plus, how fun 
 
 ### Design
 
-![Mock](voterMockUI.jpg)
+![Mock](memeMockup.pdf)
 
 Here is a sequence diagram that shows how to people would interact with the backend to vote.
 
