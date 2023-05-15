@@ -166,50 +166,45 @@
 
 ## Instruction question/notes
 1. AWS
-	what is TLD (for click server)?
+	- what is TLD (for click server)?
 2. Console
-	is it tracert(which doesn't work on my Mac terminal) or traceroute (which does)?
+	- is it tracert(which doesn't work on my Mac terminal) or traceroute (which does)?
 3. GitHub
-	Use the Git functionality of VS Code to add conflictTest.md to Git --> should this say to startup directory or something like that?
-	Better explain "Please tell me who you are" bit
-	What does "Git commits *must* represent all work" mean exactly?
-		atomic commits
-		and none means no credit
+	- Use the Git functionality of VS Code to add conflictTest.md to Git --> should this say to startup directory or something like that?
+	- Better explain "Please tell me who you are" bit
+	- What does "Git commits *must* represent all work" mean exactly?
+		- atomic commits
+		- and none means no credit
 4. Webservers
-	Is Go code running on port 80 as it the text says, or port 3000 like the code looks?
-	Not sure how to differentiate service, microservice and serverless function?
-	In slides 2.1, what this the point of the two-slide sequence on servers?
-	A few other 2.* slide questions, if we don't see them in class...
+	- Is Go code running on port 80 as it the text says, or port 3000 like the code looks?
+	- Not sure how to differentiate service, microservice and serverless function?
+	- In slides 2.1, what this the point of the two-slide sequence on servers?
+	- A few other 2.* slide questions, if we don't see them in class...
 5. Domain Names
-	What is the * in the image subdomain.*secondary.top
+	- What is the * in the image subdomain.*secondary.top
 6. AWS Route 53
-	Why can't we do HTTPS with just and IP address?
-	What contact info should I use for the DNS if I'm using FHTL account (and not my personal one)?
-	if we register a wildcard subdomain, why in the troubleshooting guide does it suggest that the www subdomain won't work?
+	- Why can't we do HTTPS with just and IP address?
+	- What contact info should I use for the DNS if I'm using FHTL account (and not my personal one)?
+	- if we register a wildcard subdomain, why in the troubleshooting guide does it suggest that the www subdomain won't work?
 7. HTML Structure
-	some of the assignment instructions are misleading or don't quite match the output shown
+	- some of the assignment instructions are misleading or don't quite match the output shown
 8. Simon CSS
-	Should this not appear here? It seems like maybe a copy/paste error from the startup CSS page?
-	"Update your startup repository notes.md to record, what you modified and added with this deliverable. The TAs will only grade things that have been clearly described as being completed. Review the voter app as an example. Also update your notes.md to record what you learned."
+	- Should this not appear here? It seems like maybe a copy/paste error from the startup CSS page?
+		- "Update your startup repository notes.md to record, what you modified and added with this deliverable. The TAs will only grade things that have been clearly described as being completed. Review the voter app as an example. Also update your notes.md to record what you learned."
 	
 
 ## To Do
-- [x] Read HTML instruction
-	- [] play with html tags I'm not familiar with
-- [x] HTML assignments
-	-[x] startup
-- [x] Come up with startup idea and do spec assignment
-	- something super simple the first time, just to do it and understand it
-	- codenames (probably too hard)
-	- some simple CC thing?
-- [] Resolve last batch of questions to Lee(/Mark?)
-- [x] Read CSS Instruction
+- [] play with html tags (from HTML instructoin) I'm not familiar with
 - [] CSS assignments
 	-[] practice
 	-[] flex
 	-[] framework
 	-[] startup
 - [] Go back over instruction and edit typos
+- [] Divide instruction/schedule into week chunks
+- [] What to about the prodution deployment stuff in 1.7 slides we didn't cover and I don't understand?
+	- ask Lee about the staging/production envs and how the automated/continuous integration works (and why is there still a manual link there?)
+	- figure out how to make them aware that it is a thing without spending any realy time on it.
 - [] create personal AWS account?
 
 ## Questions for me to figure out myself
@@ -255,27 +250,17 @@
 28. go back and play with the ribbons in CodePen again and actually make changes this time (save files and debug)
 
 ## Questions for Lee/Mark
-1. I remember Mark pushing at lunch for having this organized in week-sized chunks, and I think that is a good idea.  It will help the students know where they are in the course, what's coming when, etc.  Also, maybe the online folks require it?  If organized that way, it doesn't have to be tied to the calendare (so, for example, in Spring, for a T/TH class like what Lee is teaching now, a day is simply a week-sized chunk all at once.  It does impose more of a order than is currently there, which might make updating things a bit more of a pain; but, in theory, the main organization should be pretty stable soon? Can we organize the GitHub stuff by day/week (like on my web schedule for other courses) in a semester-agnostic way?
-2. Is looking at webpage code a good idea?  It seems like Mark gave some kind of caution about this the first day, but I can't now remember what that was...?
-3. How is Atlas free?  Will it quit being?
-4. Should we have a "personal" server to demo stuff in class (so we don't have to show stuff on the main class server)?
-5. What about the stuff in 1.7 slides we didn't cover and I don't understand?
-	- ask Lee about the staging/production envs and how the automated/continuous integration works (and why is there still a manual link there?)
-6. How are we suppose to share/interact with course GitHub repo? Do I clone the GitHub repo for my class?
+
+
+## Lunch topics
+1. How are we suppose to share/interact with course GitHub repo? 
+	- Do I clone the GitHub repo for my class?
 	- Are the slides a shared resource, or should we all be doing our own (approach)?
-	- What if, in my course, I don't like/wouldn't say/would say differently than Lee some of the stuff that is in the instruction?
-		- small example: I do office hours by appointment, not W9-11...
-		- I did not (have a Simon game)---I did!  Personal sounds fun and intimate, but it's personal...
-7. Is working in class a good thing or no?  Should they all bring laptops for doing so?
-8. Slides say startup is 40%, but Lee said 60% in class...?
-9. What certification is the Instruction page talking about (with the checkmarks)?
-10. (How) Are required readings enforced?
-11. How does late work policy and is it actually beneficial?  How often do people get hosed by getting behind compared to getting partial credit when due?  Since we are building on earlier stuff, is there even a way forward without late leniency?
-12. Next/back navigation in GitHub?  goto webserver is kind of gross?
-13. Do we worry at all about students just using code from other students public repos?
-14. Discord
-	- is there a way to block posts before the current semester?  Is that a good idea?
-	- did Lee's "what to delete so I'm not charged later" post make it into the instructions somewhere?
+	- How do we share the resource?
+2. Is working in class a good thing or no?  Should they all bring laptops for doing so?
+3. Are Simon assigments just part of the 60% that is startup grade? Or should they be separate?
+4. Should required readings be enforced?
+5. How does late work policy and is it actually beneficial?  How often do people get hosed by getting behind compared to getting partial credit when due?  Since we are building on earlier stuff, is there even a way forward without late leniency?
 
 ## Pedogogical Blatherings
 1. Is Menti.com a useful tool?
@@ -292,6 +277,8 @@
 6. How to balance answering questions with moving along (especially when they are remedial, and we've already talke about it)?
 7. Watch out for pacing (duh)
 8. HTML isn't about structure; it's about content?
+9. Should we have a "personal" server to demo stuff in class (so we don't have to show stuff on the main class server)?
+
 
 ## Assignment stuff
 1. CONSOLE: xxyy
