@@ -196,7 +196,6 @@
 ## To Do
 - [] play with html tags (from HTML instructoin) I'm not familiar with
 - [] CSS assignments
-	-[] practice
 	-[] flex
 	-[] framework
 	-[] startup
@@ -291,6 +290,7 @@
 8. HTML Input: https://codepen.io/venturadan/pen/PoyeJoO
 9. HTML Media: https://codepen.io/venturadan/pen/ZEqoXBg
 10. HTML startup: https://startup.wafflesandcheese.click
+11. CSS Practice: https://codepen.io/venturadan/pen/XWxPmLp
 
 
 
