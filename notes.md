@@ -163,6 +163,24 @@
 20. bootstrap framework
 21. CDN content delivery network
 
+## Week 5
+1. you can do local storage in the browser that survives refresh (it's in simon-js?)
+	1. should we put something about it in slides and instruction?
+2. JS is interpretted; Chrome took over because V8 (it's interpreter) is such a good interpreter
+	1. Node.js is that interpreter pulled out and wrapped in a command line console program
+3. What is a good answer to the difference between compile and interpret---they both create binaries?  Compile once (locally) or "compile" on demand (interpreter)
+4. console tab in Chrome Inspect is a JS interpreter
+	1. sources tab lets you see code, breakpoints, step through, etc.
+6. If you want to have liveserver run JS, you need to either tell it to load Node.js, or write some HTML for it to pass to a browser, which will then run it.
+7. JS is weakly typed
+8. figure out the code thing we did in class for most of the time
+9. pop out debugger from the browser
+10. what the heck was lee talking about object vs object?
+	objects like dictionary or map?
+11. undefined vs null
+	undefined is a type (like object is) and a "value" for that type?
+12. why are anon functions cool?
+
 
 ## Instruction question/notes
 1. AWS
@@ -195,7 +213,11 @@
 	
 
 ## To Do
-- [] play with html tags (from HTML instructoin) I'm not familiar with
+- [] play with html tags (from HTML instruction) I'm not familiar with
+- [] learn more about bootstrap
+- [] fix my design to show some websocket usage case (and the other screen shot?)
+- [] fix my html to show some websocket usage case
+- [] maybe try doing the CSS myself and then again with bootstrap?
 - [] CSS assignments
 	-[] startup
 - [] Go back over instruction and edit typos
@@ -246,6 +268,7 @@
 26. rmdir -rf simon will delete files if not empty
 27. why do all checkbox/radio buttens share the same name attribute value?
 28. go back and play with the ribbons in CodePen again and actually make changes this time (save files and debug)
+29. What is the `integrety` attribute in the bootstrap link and do I need to get my own key value for it?
 
 ## Questions for Lee/Mark
 
