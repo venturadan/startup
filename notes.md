@@ -191,12 +191,12 @@
 8. Simon CSS
 	- Should this not appear here? It seems like maybe a copy/paste error from the startup CSS page?
 		- "Update your startup repository notes.md to record, what you modified and added with this deliverable. The TAs will only grade things that have been clearly described as being completed. Review the voter app as an example. Also update your notes.md to record what you learned."
+9. CSS framworks assignment seems way too simple?  Can we at least make them drop in more of the components and/or modify some of them?
 	
 
 ## To Do
 - [] play with html tags (from HTML instructoin) I'm not familiar with
 - [] CSS assignments
-	-[] framework
 	-[] startup
 - [] Go back over instruction and edit typos
 - [] Divide instruction/schedule into week chunks
@@ -291,6 +291,7 @@
 10. HTML startup: https://startup.wafflesandcheese.click
 11. CSS Practice: https://codepen.io/venturadan/pen/XWxPmLp
 12. CSS Flex: https://codepen.io/venturadan/pen/jOevaLJ
+13. CSS Frameworks: https://codepen.io/venturadan/pen/jOevzpo
 
 
 
