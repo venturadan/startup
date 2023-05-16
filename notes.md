@@ -180,6 +180,23 @@
 11. undefined vs null
 	undefined is a type (like object is) and a "value" for that type?
 12. why are anon functions cool?
+13. Arrow functions
+	1. this pointer in JS?  In general?
+14. Closure=function with state?
+15. factory pattern
+16. is numbers.push() and operator or a method?
+17. Going through 2.5 hours of code seems like it's boring everyone...Is there a way to cover the basics of JS better than that?
+18. objects are key,value pairs; key must be string (or symbol)
+	they can be nested
+	methods?
+	iterator `in` vs `of`
+19. what the heck is up with `spread` and `rest`?
+20. map and reduce are confusing for people, especially when we get to the beaches example
+	1. why does [p.shore] mean a string?
+21. Is destructuring like unzipping in Python?
+22. You can only return a single value in JS; destructuring returns lets you pretend thats not true
+23. JS is inline and cryptic and kind of gross
+	1. does it make the functionality clear or obfuscate it?
 
 
 ## Instruction question/notes
