@@ -277,7 +277,9 @@
 - [] maybe try doing the CSS myself and then again with bootstrap?
 - [] CSS assignments
 	-[] startup
-- [] Go back over instruction and edit typos
+- [] catch up on all JS readings
+- [] organize weeks 3?-6 into questions/blathering/etc.
+- [] Go back over instruction up through CSS and edit typos
 - [] Divide instruction/schedule into week chunks
 - [] What to about the prodution deployment stuff in 1.7 slides we didn't cover and I don't understand?
 	- ask Lee about the staging/production envs and how the automated/continuous integration works (and why is there still a manual link there?)
@@ -329,7 +331,17 @@
 
 ## Questions for Lee/Mark
 
-
+## Lee teaching Eval
+	###Strengths
+		great course design
+		high energy
+		great knowledge/experience
+		great at live coding quickly and efficiently
+	###Weaknesses
+		pacing sometimes (too much on easy stuff, rushing on harder/later topics
+		possibly confusing rabbit holes sometimes?
+		most people aren't coming to class (I think) because all the instruction is online---not sure if that's bad or good...
+	
 ## Lunch topics
 1. How are we suppose to share/interact with course GitHub repo? 
 	- Do I clone the GitHub repo for my class?
