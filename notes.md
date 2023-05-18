@@ -198,7 +198,7 @@
 23. JS is inline and cryptic and kind of gross
 	1. does it make the functionality clear or obfuscate it?
 
-# Week 6
+## Week 6
 1. JSON is a way to transfer JS objects (and few other things?) across machines or into DB
 	1. how do you pronounce this: sawn or sun
 	2. not a serialization of objects, just a text representation
