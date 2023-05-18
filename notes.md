@@ -163,7 +163,7 @@
 20. bootstrap framework
 21. CDN content delivery network
 
-## Week 5
+# Week 5
 1. you can do local storage in the browser that survives refresh (it's in simon-js?)
 	1. should we put something about it in slides and instruction?
 2. JS is interpretted; Chrome took over because V8 (it's interpreter) is such a good interpreter
@@ -198,7 +198,7 @@
 23. JS is inline and cryptic and kind of gross
 	1. does it make the functionality clear or obfuscate it?
 
-## Week 6
+# Week 6
 1. JSON is a way to transfer JS objects (and few other things?) across machines or into DB
 	1. how do you pronounce this: sawn or sun
 	2. not a serialization of objects, just a text representation
@@ -206,14 +206,27 @@
 3. `get`/`set` makes things appear as properties rather than functions
 4. don't need to used `function` keyword inside a class
 5. show attribute info (also) in DOM tree slide
-6. `document` is the name of the DOM in the browser inspecter
-7. caniuse.com tells you which JS things you can use in which browser (starting when)
+	1. should we also show JS contributing to the DOM?
+7. `document` is the name of the DOM in the browser inspecter
+8. caniuse.com tells you which JS things you can use in which browser (starting when)
 	1. MDN has this info way down at the bottom of articles as well
-8. what is an injection attack?
-9. the inspector is using/manipulating the DOM just like we can
-10. why is server-side rendering becoming popular again? (makes crawling/understanding pages harder)
+9. what is an injection attack?
+	1. it's not safe to use waffle.innerHTML="<something evil>"
+	2. instead use DOM manipulation functions
+10. the inspector is using/manipulating the DOM just like we can
+11. why is server-side rendering becoming popular again? (makes crawling/understanding pages harder)
 	1. client-side rendering is faster and cheaper (for the server
-11. MDN has good articles about accessibility issues
+12. MDN has good articles about accessibility issues
+13. MDN has lots of events info (of course)
+14. Note `class` means something different in html/css than it does in JS (and other programming languages)
+15. scope is different in JS because lots of things use global scope stuff
+	1. `this` is telling you what scope you are in
+	2. global `this` is window and it is the default
+	3. for `strict`, `this` pointer for a global function is undefined because it has no parent class (it's `window` if not `strict`, but this causes trouble)
+	4. scope for arrow function is the original creating environment
+	5. scope for events is the element that caused the event, which makes sense
+16. get to know the inspection/debug breakpoint, console stuff
+17. in web frameworks, we separate based on functionality rather than on file type (html/css/js)
 
 
 ## Instruction question/notes
@@ -333,7 +346,7 @@
 7. Watch out for pacing (duh)
 8. HTML isn't about structure; it's about content?
 9. Should we have a "personal" server to demo stuff in class (so we don't have to show stuff on the main class server)?
-
+10. Start class by showing what they will hopefully know (overall picture, a bit of each thing, commandline, debugging, etc.) and what they can't possibly expect to know (html/cs/js/frameworks/react)
 
 ## Assignment stuff
 1. CONSOLE: xxyy
