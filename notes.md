@@ -198,6 +198,23 @@
 23. JS is inline and cryptic and kind of gross
 	1. does it make the functionality clear or obfuscate it?
 
+## Week 6
+1. JSON is a way to transfer JS objects (and few other things?) across machines or into DB
+	1. how do you pronounce this: sawn or sun
+	2. not a serialization of objects, just a text representation
+2. `this._weather` is a convention to tell people it's private; now you can enforce with `#`
+3. `get`/`set` makes things appear as properties rather than functions
+4. don't need to used `function` keyword inside a class
+5. show attribute info (also) in DOM tree slide
+6. `document` is the name of the DOM in the browser inspecter
+7. caniuse.com tells you which JS things you can use in which browser (starting when)
+	1. MDN has this info way down at the bottom of articles as well
+8. what is an injection attack?
+9. the inspector is using/manipulating the DOM just like we can
+10. why is server-side rendering becoming popular again? (makes crawling/understanding pages harder)
+	1. client-side rendering is faster and cheaper (for the server
+11. MDN has good articles about accessibility issues
+
 
 ## Instruction question/notes
 1. AWS
