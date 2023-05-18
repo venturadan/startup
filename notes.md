@@ -227,9 +227,19 @@
 	5. scope for events is the element that caused the event, which makes sense
 16. get to know the inspection/debug breakpoint, console stuff
 17. in web frameworks, we separate based on functionality rather than on file type (html/css/js)
+18. on common JS Modules slide, should `.\greet` be '.\hello'?
+19. understand how module import is using destructuring
+20. you have to have `\type=module` to use module stuff in global scope???
+	1. but you can leak the module stuff into the global scope directly in the html
+21. be aware of common JS modules (used historically), maybe don't use the new versions until you are better with stuff in general
+	1. don't really need them when you get to React
+22. JS is single-threaded so globals aren't quite as frowned on as they are in most other (multi-threaded) languages
+	1. so everything must be async
+	2. can't run for a long time
+	3. does setTimeout run in Web API (thread?) and throw an event back to the JS (thread?) when it's done?
+	4. how do you make sure to give up time (release the thread/background)?
 
-
-## Instruction question/notes
+## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
 	- what is TLD (for click server)?
 2. Console
