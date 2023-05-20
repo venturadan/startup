@@ -246,7 +246,26 @@
 	``` 
 	why do we need the `${}`? (that makes the inside get evaluated as JS, which makes the decrement happen)  And why is the hsl() stuff wrapped in backquotes? (because the DOM function that uses `color` expects a string argument, I'm pretty sure)
 26. The `debounce` example is tricky but cool---the event listener calls the function that `debounce` returns whenever it detects a scroll event; `debounce` gets evaluated first (during interpretation), so that function exists when the first scroll even happens; it's a closure, so the callCount is still in scope, which is how the colors constantly change.  But why do they changes so much with just a `+1` increment?
-	
+27. Given this object example from the JSON instruction:
+	```
+	const obj = {
+  	"class": {
+    		"title": "web programming",
+    		"description": "Amazing"
+  		},
+  	"enrollment": ["Marco", "Jana", "فَاطِمَة"],
+  	"start": "2025-02-01",
+  	"end": null
+	}
+	```
+	how does `stringify/parse` work recursively to preserve inner object type?  Also, why does this not work like you would expect:
+	```
+	for (const n in obj){console.log(n + ' is ' + obj.n + ' and is of type ' + typeof(obj.n))}
+	```
+	but this does:
+	```
+	console.log('class is ' + obj.class + ' and is of type ' + typeof(obj.class))
+	```
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
@@ -278,7 +297,11 @@
 9. CSS framworks assignment seems way too simple?  Can we at least make them drop in more of the components and/or modify some of them?
 10. JS String
 	the Type instruction says that `string` is a primitive data type, but the String instruction calls it an object and it does have methods?
+10.5 JS Type and Construct---what does this title mean?
 11. JS Functions says a `function` can have zero or more return statements???
+12. JS Arrays assignment is not clearly worded/defined: does the `tester' function iterate over the array (I don't think so) or does it test a a single array element, with the iteration happening in `testAll` (I think so)
+	1. Also, is the `some` example supposed to be using the funtion `1<1`?  Or should it be `i<1`?
+13. JS JSON conversion output for example doesn't match what CodePen does (with double quotes on names, in particular)
 
 ## To Do
 - [] play with html tags (from HTML instruction) I'm not familiar with
@@ -289,6 +312,7 @@
 - [] CSS assignments
 	-[] startup
 - [] catch up on all JS readings
+- [] go back and compare my (CodePen) solutions to Lee's; also, give them all appropriate titles
 - [] organize weeks 3?-6 into questions/blathering/etc.
 - [] Go back over instruction up through CSS and edit typos
 - [] Divide instruction/schedule into week chunks
@@ -406,6 +430,8 @@
 11. CSS Practice: https://codepen.io/venturadan/pen/XWxPmLp
 12. CSS Flex: https://codepen.io/venturadan/pen/jOevaLJ
 13. CSS Frameworks: https://codepen.io/venturadan/pen/jOevzpo
+14. CSS startup: 
+15. JS Arrays: https://codepen.io/venturadan/pen/oNaQozg
 
 
 
