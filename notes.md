@@ -241,8 +241,8 @@
 23. Will we install/use Node.js or just always use a browser?  If not, why not?  If so, why not sooner?
 24. If I don't fork a CodePen, I can still edit and save---where does it save?
 25. In this code snippet
-	``` 
-	`const color = &`hsl(${callCount++}, 100%, 50%)`
+	```javascript
+	const color = `hsl(${callCount++}, 100%, 50%)`
 	``` 
 	why do we need the `${}`?
 	
