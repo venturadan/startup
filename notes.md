@@ -238,7 +238,11 @@
 	2. can't run for a long time
 	3. does setTimeout run in Web API (thread?) and throw an event back to the JS (thread?) when it's done?
 	4. how do you make sure to give up time (release the thread/background)?
-
+23. Will we install/use Node.js or just always use a browser?  If not, why not?  If so, why not sooner?
+24. If I don't fork a CodePen, I can still edit and save---where does it save?
+25. In this code snippet `const color = `hsl(${callCount++}, 100%, 50%)``, why do we need the `${}`?
+	
+	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
 	- what is TLD (for click server)?
@@ -267,7 +271,9 @@
 	- Should this not appear here? It seems like maybe a copy/paste error from the startup CSS page?
 		- "Update your startup repository notes.md to record, what you modified and added with this deliverable. The TAs will only grade things that have been clearly described as being completed. Review the voter app as an example. Also update your notes.md to record what you learned."
 9. CSS framworks assignment seems way too simple?  Can we at least make them drop in more of the components and/or modify some of them?
-	
+10. JS String
+	the Type instruction says that `string` is a primitive data type, but the String instruction calls it an object and it does have methods?
+11. JS Functions says a `function` can have zero or more return statements???
 
 ## To Do
 - [] play with html tags (from HTML instruction) I'm not familiar with
@@ -328,19 +334,30 @@
 27. why do all checkbox/radio buttens share the same name attribute value?
 28. go back and play with the ribbons in CodePen again and actually make changes this time (save files and debug)
 29. What is the `integrety` attribute in the bootstrap link and do I need to get my own key value for it?
-
+30. What is a serverless function?
+31. Why does 'use strict' not work on the command line?  What are all the bad examples in the instruction file showing?
+32. How and I write/modify JS right in the browser debugger? Or can I not? (e.g., I tried to modify the DOM example at the very end of the JS demo file so it would work on the command line (but that requires Node.js, I think?). How does that get called ever?  Or, is it just there so we can copy it over into Code?
+33. What does %c, %s, etc. to in `console.log` string formatting?
+34. Nail down why `var` is deprecated in JS
+35. What is the `symbol` type in JS?
+36. How are a `Map` type and an `Object` type different in JS?
+37. How do I edit/write HTML (not just style) in the browser debugger? (right-click on element)
+38. Why does `('b' + 'a' + +'a' + 'a').toLowerCase();` need the extra `a`?
+	
 ## Questions for Lee/Mark
 
 ## Lee teaching Eval
 	###Strengths
-		great course design
-		high energy
-		great knowledge/experience
-		great at live coding quickly and efficiently
+		- great course design
+		- high energy
+		- great knowledge/experience
+		- great at live coding quickly and efficiently
+		- very respectful, and helpful and patient
 	###Weaknesses
-		pacing sometimes (too much on easy stuff, rushing on harder/later topics
-		possibly confusing rabbit holes sometimes?
-		most people aren't coming to class (I think) because all the instruction is online---not sure if that's bad or good...
+		- pacing sometimes (too much on easy stuff, rushing on harder/later topics
+		- possibly confusing rabbit holes sometimes?
+		- most people aren't coming to class (I think) because all the instruction is online---not sure if that's bad or good...
+		- maybe spends time on/allows a bit too many off-topic/weird questions that everyone else doesn't want to hear?
 	
 ## Lunch topics
 1. How are we suppose to share/interact with course GitHub repo? 
