@@ -242,7 +242,7 @@
 24. If I don't fork a CodePen, I can still edit and save---where does it save?
 25. In this code snippet
 	``` 
-	`const color = &`hsl(${callCount++}, 100%, 50%)&`
+	`const color = &`hsl(${callCount++}, 100%, 50%)`
 	``` 
 	why do we need the `${}`?
 	
