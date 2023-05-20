@@ -229,7 +229,7 @@
 17. in web frameworks, we separate based on functionality rather than on file type (html/css/js)
 18. on common JS Modules slide, should `.\greet` be '.\hello'?
 19. understand how module import is using destructuring
-20. you have to have `\type=module` to use module stuff in global scope???
+20. you have to have `<...type=module...>` to use module stuff in global scope???
 	1. but you can leak the module stuff into the global scope directly in the html
 21. be aware of common JS modules (used historically), maybe don't use the new versions until you are better with stuff in general
 	1. don't really need them when you get to React
@@ -240,7 +240,7 @@
 	4. how do you make sure to give up time (release the thread/background)?
 23. Will we install/use Node.js or just always use a browser?  If not, why not?  If so, why not sooner?
 24. If I don't fork a CodePen, I can still edit and save---where does it save?
-25. In this code snippet `const color = `hsl(${callCount++}, 100%, 50%)``, why do we need the `${}`?
+25. In this code snippet >const color = `hsl(${callCount++}, 100%, 50%)`, why do we need the `${}`?
 	
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
