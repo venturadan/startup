@@ -240,7 +240,7 @@
 	4. how do you make sure to give up time (release the thread/background)?
 23. Will we install/use Node.js or just always use a browser?  If not, why not?  If so, why not sooner?
 24. If I don't fork a CodePen, I can still edit and save---where does it save?
-25. In this code snippet >const color = `hsl(${callCount++}, 100%, 50%)`, why do we need the `${}`?
+25. In this code snippet `const color = \`hsl(${callCount++}, 100%, 50%)\``, why do we need the `${}`?
 	
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
