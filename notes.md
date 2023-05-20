@@ -244,7 +244,8 @@
 	```javascript
 	const color = `hsl(${callCount++}, 100%, 50%)`
 	``` 
-	why do we need the `${}`?
+	why do we need the `${}`? (that makes the inside get evaluated as JS, which makes the decrement happen)  And why is the hsl() stuff wrapped in backquotes? (because the DOM function that uses `color` expects a string argument, I'm pretty sure)
+26. The `debounce` example is tricky but cool---the event listener calls the function that `debounce` returns whenever it detects a scroll event; `debounce` gets evaluated first (during interpretation), so that function exists when the first scroll even happens; it's a closure, so the callCount is still in scope, which is how the colors constantly change.  But why do they changes so much with just a `+1` increment?
 	
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
