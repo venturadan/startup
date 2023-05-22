@@ -302,7 +302,10 @@
 12. JS Arrays assignment is not clearly worded/defined: does the `tester' function iterate over the array (I don't think so) or does it test a a single array element, with the iteration happening in `testAll` (I think so)
 	1. Also, is the `some` example supposed to be using the funtion `1<1`?  Or should it be `i<1`?
 13. JS JSON conversion output for example doesn't match what CodePen does (with double quotes on names, in particular)
-
+14. JS object and classes assignment
+	-`Phone.Connected` should be `phone.connected`
+	
+	
 ## To Do
 - [] play with html tags (from HTML instruction) I'm not familiar with
 - [] learn more about bootstrap
@@ -432,6 +435,7 @@
 13. CSS Frameworks: https://codepen.io/venturadan/pen/jOevzpo
 14. CSS startup: 
 15. JS Arrays: https://codepen.io/venturadan/pen/oNaQozg
+16. JS Objects and classes: https://codepen.io/venturadan/pen/qBJLaQX?editors=1112
 
 
 
