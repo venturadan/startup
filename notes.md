@@ -247,7 +247,7 @@
 	why do we need the `${}`? (that makes the inside get evaluated as JS, which makes the decrement happen)  And why is the hsl() stuff wrapped in backquotes? (because the DOM function that uses `color` expects a string argument, I'm pretty sure)
 26. The `debounce` example is tricky but cool---the event listener calls the function that `debounce` returns whenever it detects a scroll event; `debounce` gets evaluated first (during interpretation), so that function exists when the first scroll even happens; it's a closure, so the callCount is still in scope, which is how the colors constantly change.  But why do they changes so much with just a `+1` increment?
 27. Given this object example from the JSON instruction:
-	```
+	```javascript
 	const obj = {
   	"class": {
     		"title": "web programming",
@@ -259,13 +259,19 @@
 	}
 	```
 	how does `stringify/parse` work recursively to preserve inner object type?  Also, why does this not work like you would expect:
-	```
+	```javascript
 	for (const n in obj){console.log(n + ' is ' + obj.n + ' and is of type ' + typeof(obj.n))}
 	```
 	but this does:
-	```
+	```javascript
 	console.log('class is ' + obj.class + ' and is of type ' + typeof(obj.class))
 	```
+28. JS Scope Closure is still fuzzy, both in how it works and why/how we'd use it...
+29. JS DOM
+	1. don't really get the injection stuff yet...
+	2. in the DOM event listener, where does the `event` parameter come from when the function is called on click (and what does it contain)?
+30. JS Async/Await
+	1. What does this mean: >By combining async, to define functions that return promises, with await, to wait on the promise, you can create code that is asynchronous, but still maintains the flow of the code without explicitly using callbacks.
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
@@ -303,8 +309,12 @@
 	1. Also, is the `some` example supposed to be using the funtion `1<1`?  Or should it be `i<1`?
 13. JS JSON conversion output for example doesn't match what CodePen does (with double quotes on names, in particular)
 14. JS object and classes assignment
-	-`Phone.Connected` should be `phone.connected`
-	- spec is maybe a bit less clear than it could be?
+	1.`Phone.Connected` should be `phone.connected`
+	2. spec is maybe a bit less clear than it could be?
+15. JS DOM assignment
+	1. peak height units are different for two tables...?
+16. JS Promises
+	1. The assignment spec is really short on detail/clarity---not sure what is supposed to be done---maybe just talk more about chaining `.then` statements?
 	
 	
 ## To Do
@@ -437,6 +447,8 @@
 14. CSS startup: 
 15. JS Arrays: https://codepen.io/venturadan/pen/oNaQozg
 16. JS Objects and classes: https://codepen.io/venturadan/pen/qBJLaQX?editors=1112
+17. JS DOM: https://codepen.io/venturadan/pen/abRPwbR
+18. JS Promises: https://codepen.io/venturadan/pen/VwEqVge
 
 
 
