@@ -304,6 +304,7 @@
 13. JS JSON conversion output for example doesn't match what CodePen does (with double quotes on names, in particular)
 14. JS object and classes assignment
 	-`Phone.Connected` should be `phone.connected`
+	- spec is maybe a bit less clear than it could be?
 	
 	
 ## To Do
