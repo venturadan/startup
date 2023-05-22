@@ -271,7 +271,8 @@
 	1. don't really get the injection stuff yet...
 	2. in the DOM event listener, where does the `event` parameter come from when the function is called on click (and what does it contain)?
 30. JS Async/Await
-	1. What does this mean: >By combining async, to define functions that return promises, with await, to wait on the promise, you can create code that is asynchronous, but still maintains the flow of the code without explicitly using callbacks.
+	1. What does this mean: 
+	>By combining async, to define functions that return promises, with await, to wait on the promise, you can create code that is asynchronous, but still maintains the flow of the code without explicitly using callbacks.
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
