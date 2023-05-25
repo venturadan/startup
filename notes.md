@@ -273,6 +273,45 @@
 30. JS Async/Await
 	1. What does this mean: 
 	>By combining async, to define functions that return promises, with await, to wait on the promise, you can create code that is asynchronous, but still maintains the flow of the code without explicitly using callbacks.
+
+# Week 7 (missed for The Bug's graduation)
+1. review readings/slides I missed
+2. find out what was the review about/how it was done?
+3. Can I take the midterm?  Take it.
+	
+# Week 8
+1. Bounced all the way back to UX/UI design stuff.  Why? Spring thing.  If we do it, we should do it with CSS (or before even?)
+	1. How much UX stuff should we try to do---would the time be better used some other way?  Maybe this should be online but not in class?
+2. Another good Leeism: "I'm not trying to take your life away from you; I'm trying to make you awesome in three weeks."
+3. UX: start with story and convert to tech---not the other way around
+4. Am I making my user work harde than they need to?  What are they really there for?  Not what I want them to be there for
+5. Talking through design (not tech) to make sure things make sense and are best (for user)
+6. complementary colors and constrast checkers
+7. fonts
+	1. google fonts (or other repos)
+8. prototypr.io?
+9. Images should have a critical role, or not be there.
+10. Less is almost always more
+11. Hick's law---is it really just algorithmic?  That doesn't seem bad/important...
+12. So much legal stuff to worry about in building for the world---unavoidable and maybe even good, but even worth it?
+13. -------------Web services starting here-------------
+14. fetch example on console vs url and looking at network response
+	1. it's all the same thing
+15. endpoints are kind of like methods on the object that is your service?
+16. use CURL on the command line to compare with Network tab on browser debug tools
+17. await with promises?
+18. Caddy does two things:
+	1. load static files
+	2. forward requests to another service (reverse proxy/port forwarding for a network request internal to the virtual machine on which Caddy is running)
+19. only one service can listen on a port?  So that's why we don't have to specify the service, right?
+20. requests used to actually be text, but now binary for efficiency
+	1. why does that method not show up in the URL slide just above?
+21. HTTP(S) is always client (requests) to server (response)
+	response slide has 15 when it should have 14 for length
+22. cname in DNS is an alias; the same as a redirect 301/302 status code
+23. never assume the browser is enforcing your security (e.g., if you change the timeout in the cookie in the browser, the server should still get you on the original timeout
+		
+	
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
@@ -289,13 +328,15 @@
 	- Is Go code running on port 80 as it the text says, or port 3000 like the code looks?
 	- Not sure how to differentiate service, microservice and serverless function?
 	- In slides 2.1, what this the point of the two-slide sequence on servers?
-	- A few other 2.* slide questions, if we don't see them in class...
+	- A few other 2.* slide questions, if we don't see them in 
+	...
 5. Domain Names
 	- What is the * in the image subdomain.*secondary.top
 6. AWS Route 53
 	- Why can't we do HTTPS with just and IP address?
 	- What contact info should I use for the DNS if I'm using FHTL account (and not my personal one)?
 	- if we register a wildcard subdomain, why in the troubleshooting guide does it suggest that the www subdomain won't work?
+		- default subdomain for web requests, but since almost all things are web requests...
 7. HTML Structure
 	- some of the assignment instructions are misleading or don't quite match the output shown
 8. Simon CSS
@@ -316,6 +357,7 @@
 	1. peak height units are different for two tables...?
 16. JS Promises
 	1. The assignment spec is really short on detail/clarity---not sure what is supposed to be done---maybe just talk more about chaining `.then` statements?
+17. URL slide---show two parameters separated by ampersand?
 	
 	
 ## To Do
@@ -328,7 +370,7 @@
 	-[] startup
 - [] catch up on all JS readings
 - [] go back and compare my (CodePen) solutions to Lee's; also, give them all appropriate titles
-- [] organize weeks 3?-6 into questions/blathering/etc.
+- [] organize weeks 3?-6 into questions/blathering/etc. before lunch tomorrow
 - [] Go back over instruction up through CSS and edit typos
 - [] Divide instruction/schedule into week chunks
 - [] What to about the prodution deployment stuff in 1.7 slides we didn't cover and I don't understand?
@@ -343,6 +385,7 @@
 2. How can you accidentally pull a Wingate?
 3. what all is an AMI?
 	1. how to make my own
+	2. it's in .github/profile somewhere called EC2AMInotes.md or something close to that
 4. Make sure to know what all the EC2 setup stuff is/does
 5. why do we already have an index.html file on the new server?
 6. what is the 0.0.0.0/??? Last part of this mean?
@@ -402,6 +445,7 @@
 		- possibly confusing rabbit holes sometimes?
 		- most people aren't coming to class (I think) because all the instruction is online---not sure if that's bad or good...
 		- maybe spends time on/allows a bit too many off-topic/weird questions that everyone else doesn't want to hear?
+		- maybe over does the enthusiasm (chanting HTTP)?
 	
 ## Lunch topics
 1. How are we suppose to share/interact with course GitHub repo? 
@@ -412,6 +456,7 @@
 3. Are Simon assigments just part of the 60% that is startup grade? Or should they be separate?
 4. Should required readings be enforced?
 5. How does late work policy and is it actually beneficial?  How often do people get hosed by getting behind compared to getting partial credit when due?  Since we are building on earlier stuff, is there even a way forward without late leniency?
+6. Is it ok if almost no one comes to class (because everything is already online, or???) midway through spring about 40% attending
 
 ## Pedogogical Blatherings
 1. Is Menti.com a useful tool?
