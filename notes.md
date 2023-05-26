@@ -107,29 +107,29 @@
 	2. what is the problem?
  	3. what is the win?
 	4. how you are going to do it?
-3. lots of time to answer questions before we covered anything
-4. we don't have the browser just read files directly from our HD (if we are just local, especially) because of permissions/security issues/complexity
-5. `<!DOCTYPE html>` means we are using HTML 5
-6. language attribute just lets google, etc. know what language this is (in case it wants to find that kind of thing or translate or whatever)
-7. localhost `127.0.0.1` loopback (LiveServer uses this)
-8. TBL is famous WebFather because he thought of anchor tags---anyone can change the world
-9. HTML steals from SGML
-10. DOM (doc object model) is a tree representation in memory
-11. HTML has styling attributes (like width) that are now deprecated by CSS
-13. CodePen assumes `<!DOCTYPE html><html></html>` and doesn't include it
-14. Make clean structure with as much semantics as possible (for readers, google, etc.)
-15. `<forms>` are kind of deprecated by JS now, but still...
-16. why does `controls=false` not get rid of controls in Media code?
-17. where to find videos, etc that you can access in CodePen?
+2. lots of time to answer questions before we covered anything
+3. we don't have the browser just read files directly from our HD (if we are just local, especially) because of permissions/security issues/complexity
+4. `<!DOCTYPE html>` means we are using HTML 5
+5. language attribute just lets google, etc. know what language this is (in case it wants to find that kind of thing or translate or whatever)
+6. localhost `127.0.0.1` loopback (LiveServer uses this)
+7. TBL is famous WebFather because he thought of anchor tags---anyone can change the world
+8. HTML steals from SGML
+9. DOM (doc object model) is a tree representation in memory
+10. HTML has styling attributes (like width) that are now deprecated by CSS
+11. CodePen assumes `<!DOCTYPE html><html></html>` and doesn't include it
+12. Make clean structure with as much semantics as possible (for readers, google, etc.)
+13. `<forms>` are kind of deprecated by JS now, but still...
+14. why does `controls=false` not get rid of controls in Media code?
+15. where to find videos, etc that you can access in CodePen?
 	1. look at webpage source and link there or just host it locally?
-18. Is there cool SVG repos somewhere?
-19. In HTML, you have to use multiple pages, one for each "view"
+16. Is there cool SVG repos somewhere?
+17. In HTML, you have to use multiple pages, one for each "view"
 	1. later, we use one page and JS to modify the page content dynamically
-20. make the whole simon.html app live coding?  Or is that a bad idea?
-21. Show how to deploy
-22. cover the whole thing again for startup
-23. HTML structure doesn't even (any more) need to worry about placement/location, just the elements/pieces, which can just appear linearly for now
-24. Talk about what markup is and what we are doing with it 
+18. make the whole simon.html app live coding?  Or is that a bad idea?
+19. Show how to deploy
+20. cover the whole thing again for startup
+21. HTML structure doesn't even (any more) need to worry about placement/location, just the elements/pieces, which can just appear linearly for now
+22. Talk about what markup is and what we are doing with it 
 
 # Week 4
 1. Don't be late---I can't penalize you enough to reflect how much you are penalizing yourself by getting behind (especially Spr/Su)
@@ -148,32 +148,31 @@
 	2. 3rem is relative to the document, instead of the parent font
 	3. start/end instead of left/right for language agnostic placment
 9. Box model---In HTML, everything is boxes:content, padding, border, margin---make sure you are on the right element, and look at elements/style box view
-10. you can tweak everything in browser debugger
+10. you can tweak everything in browser debugger---edit as HTML
 11. Get to know all the CSS stuff
 12. HTML is content/semantic "structure", but not location/relation structure
 13. learn more about fonts and animation (we went way too fast)
 14. what is the `display` style thing that we skipped?
 15. native app and responsive design are different
-17. not my job to know all the HTML/CSS/etc.  My job is to give mental models, work flow, how to debug/problem solve, find answers, etc.
-18. `<meta name="viewport"/>` tells device to not guess scaling
+16. `<meta name="viewport"/>` tells device to not guess scaling
 	1. Lots of stuff we do is because of legacy problems (like when pages weren't written well for a device) that still haven't gone away yet
-19. Froggy?
-20. bootstrap framework
-21. CDN content delivery network
+17. Froggy?  What the heck is this?
+18. bootstrap framework
+21. CDN is a content delivery network---just a URL-accessible repo of stuff?
 
 # Week 5
 1. you can do local storage in the browser that survives refresh (it's in simon-js?)
-	1. should we put something about it in slides and instruction?
-2. JS is interpretted; Chrome took over because V8 (it's interpreter) is such a good interpreter
+	1. should we put something about it in slides and instruction?  I think it comes later?
+2. JS is interpretted; Chrome took over because V8 (its interpreter) is such a good interpreter
 	1. Node.js is that interpreter pulled out and wrapped in a command line console program
 3. What is a good answer to the difference between compile and interpret---they both create binaries?  Compile once (locally) or "compile" on demand (interpreter)
-4. console tab in Chrome Inspect is a JS interpreter
+4. console tab in Chrome Inspect is a JS interpreter---is this true/exact?
 	1. sources tab lets you see code, breakpoints, step through, etc.
 6. If you want to have liveserver run JS, you need to either tell it to load Node.js, or write some HTML for it to pass to a browser, which will then run it.
 7. JS is weakly typed
 8. figure out the code thing we did in class for most of the time
 9. pop out debugger from the browser
-10. what the heck was lee talking about object vs object?
+10. what the heck was Lee talking about object vs object vs Object?
 	objects like dictionary or map?
 11. undefined vs null
 	undefined is a type (like object is) and a "value" for that type?
@@ -182,9 +181,9 @@
 	1. this pointer in JS?  In general?
 14. Closure=function with state?
 15. factory pattern
-16. is numbers.push() and operator or a method?
+16. is numbers.push() an operator or a method?
 17. Going through 2.5 hours of code seems like it's boring everyone...Is there a way to cover the basics of JS better than that?
-18. objects are key,value pairs; key must be string (or symbol)
+18. objects are collections? sets? of key,value pairs; key must be string (or symbol)
 	they can be nested
 	methods?
 	iterator `in` vs `of`
@@ -192,7 +191,7 @@
 20. map and reduce are confusing for people, especially when we get to the beaches example
 	1. why does [p.shore] mean a string?
 21. Is destructuring like unzipping in Python?
-22. You can only return a single value in JS; destructuring returns lets you pretend thats not true
+22. You can only return a single value in JS; destructuring returns lets you pretend that,s not true
 23. JS is inline and cryptic and kind of gross
 	1. does it make the functionality clear or obfuscate it?
 
@@ -475,6 +474,8 @@
 8. HTML isn't about structure; it's about content?
 9. Should we have a "personal" server to demo stuff in class (so we don't have to show stuff on the main class server)?
 10. Start class by showing what they will hopefully know (overall picture, a bit of each thing, commandline, debugging, etc.) and what they can't possibly expect to know (html/cs/js/frameworks/react)
+11. not my job to know all the HTML/CSS/etc.  My job is to give mental models, work flow, how to debug/problem solve, find answers, etc.
+
 
 ## Assignment stuff
 1. CONSOLE: xxyy
