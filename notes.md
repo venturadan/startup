@@ -210,11 +210,11 @@
 	2. instead use DOM manipulation functions
 10. the inspector is using/manipulating the DOM just like we can
 11. why is server-side rendering becoming popular again? (makes crawling/understanding pages harder)
-	1. client-side rendering is faster and cheaper (for the server
+	1. client-side rendering is faster and cheaper (for the server owners)
 12. MDN has good articles about accessibility issues
 13. MDN has lots of events info (of course)
 14. Note `class` means something different in html/css than it does in JS (and other programming languages)
-15. scope is different in JS because lots of things use global scope stuff
+15. scope is different (than what?) in JS because lots of things use global scope stuff
 	1. `this` is telling you what scope you are in
 	2. global `this` is window and it is the default
 	3. for `strict`, `this` pointer for a global function is undefined because it has no parent class (it's `window` if not `strict`, but this causes trouble)
@@ -222,7 +222,6 @@
 	5. scope for events is the element that caused the event, which makes sense
 16. get to know the inspection/debug breakpoint, console stuff
 17. in web frameworks, we separate based on functionality rather than on file type (html/css/js)
-18. on common JS Modules slide, should `.\greet` be '.\hello'?
 19. understand how module import is using destructuring
 20. you have to have `<...type=module...>` to use module stuff in global scope???
 	1. but you can leak the module stuff into the global scope directly in the html
@@ -231,8 +230,6 @@
 22. JS is single-threaded so globals aren't quite as frowned on as they are in most other (multi-threaded) languages
 	1. so everything must be async
 	2. can't run for a long time
-	3. does setTimeout run in Web API (thread?) and throw an event back to the JS (thread?) when it's done?
-	4. how do you make sure to give up time (release the thread/background)?
 23. Will we install/use Node.js or just always use a browser?  If not, why not?  If so, why not sooner?
 24. If I don't fork a CodePen, I can still edit and save---where does it save?
 25. In this code snippet
@@ -240,27 +237,7 @@
 	const color = `hsl(${callCount++}, 100%, 50%)`
 	``` 
 	why do we need the `${}`? (that makes the inside get evaluated as JS, which makes the decrement happen)  And why is the hsl() stuff wrapped in backquotes? (because the DOM function that uses `color` expects a string argument, I'm pretty sure)
-26. The `debounce` example is tricky but cool---the event listener calls the function that `debounce` returns whenever it detects a scroll event; `debounce` gets evaluated first (during interpretation), so that function exists when the first scroll even happens; it's a closure, so the callCount is still in scope, which is how the colors constantly change.  But why do they changes so much with just a `+1` increment?
-27. Given this object example from the JSON instruction:
-	```javascript
-	const obj = {
-  	"class": {
-    		"title": "web programming",
-    		"description": "Amazing"
-  		},
-  	"enrollment": ["Marco", "Jana", "فَاطِمَة"],
-  	"start": "2025-02-01",
-  	"end": null
-	}
-	```
-	how does `stringify/parse` work recursively to preserve inner object type?  Also, why does this not work like you would expect:
-	```javascript
-	for (const n in obj){console.log(n + ' is ' + obj.n + ' and is of type ' + typeof(obj.n))}
-	```
-	but this does:
-	```javascript
-	console.log('class is ' + obj.class + ' and is of type ' + typeof(obj.class))
-	```
+26. The `debounce` example is tricky but cool---the event listener calls the function that `debounce` returns whenever it detects a scroll event; `debounce` gets evaluated first (during interpretation), so that function exists when the first scroll even happens; it's a closure, so the callCount is still in scope, which is how the colors constantly change.  But why do they changes so much with just a `+1` increment? (because even a little bit of scrolling is a lot +1 calls.)
 28. JS Scope Closure is still fuzzy, both in how it works and why/how we'd use it...
 29. JS DOM
 	1. don't really get the injection stuff yet...
@@ -354,6 +331,8 @@
 18. HTML Slide (3.1) "Header" is overloaded and misleading
 19. show attribute info (also) in DOM tree slide
 	1. should we also show JS contributing to the DOM?
+20. on common JS Modules slide, should `.\greet` be '.\hello'?
+
 
 	
 	
@@ -427,6 +406,29 @@
 36. How are a `Map` type and an `Object` type different in JS?
 37. How do I edit/write HTML (not just style) in the browser debugger? (right-click on element)
 38. Why does `('b' + 'a' + +'a' + 'a').toLowerCase();` need the extra `a`?
+39. does setTimeout run in Web API (thread?) and throw an event back to the JS (thread?) when it's done?
+40. how do you make sure to give up time (release the thread/background)?
+41. Given this object example from the JSON instruction:
+	```javascript
+	const obj = {
+  	"class": {
+    		"title": "web programming",
+    		"description": "Amazing"
+  		},
+  	"enrollment": ["Marco", "Jana", "فَاطِمَة"],
+  	"start": "2025-02-01",
+  	"end": null
+	}
+	```
+	how does `stringify/parse` work recursively to preserve inner object type?  Also, why does this not work like you would expect:
+	```javascript
+	for (const n in obj){console.log(n + ' is ' + obj.n + ' and is of type ' + typeof(obj.n))}
+	```
+	but this does:
+	```javascript
+	console.log('class is ' + obj.class + ' and is of type ' + typeof(obj.class))
+	```	
+	
 	
 ## Questions for Lee/Mark
 	2. dropped "changing root domain" from course?
