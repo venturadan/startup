@@ -107,7 +107,6 @@
 	2. what is the problem?
  	3. what is the win?
 	4. how you are going to do it?
-2. dropped "changing root domain" from course?
 3. lots of time to answer questions before we covered anything
 4. we don't have the browser just read files directly from our HD (if we are just local, especially) because of permissions/security issues/complexity
 5. `<!DOCTYPE html>` means we are using HTML 5
@@ -117,8 +116,7 @@
 9. HTML steals from SGML
 10. DOM (doc object model) is a tree representation in memory
 11. HTML has styling attributes (like width) that are now deprecated by CSS
-12. HTML Slide (3.1) "Header" is overloaded and misleading
-13. CodePen assumes <!DOCTYPE html><html></html> and doesn't include it
+13. CodePen assumes `<!DOCTYPE html><html></html>` and doesn't include it
 14. Make clean structure with as much semantics as possible (for readers, google, etc.)
 15. `<forms>` are kind of deprecated by JS now, but still...
 16. why does `controls=false` not get rid of controls in Media code?
@@ -311,8 +309,6 @@
 22. cname in DNS is an alias; the same as a redirect 301/302 status code
 23. never assume the browser is enforcing your security (e.g., if you change the timeout in the cookie in the browser, the server should still get you on the original timeout
 		
-	
-	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
 	- what is TLD (for click server)?
@@ -358,6 +354,8 @@
 16. JS Promises
 	1. The assignment spec is really short on detail/clarity---not sure what is supposed to be done---maybe just talk more about chaining `.then` statements?
 17. URL slide---show two parameters separated by ampersand?
+18. HTML Slide (3.1) "Header" is overloaded and misleading
+
 	
 	
 ## To Do
@@ -432,6 +430,8 @@
 38. Why does `('b' + 'a' + +'a' + 'a').toLowerCase();` need the extra `a`?
 	
 ## Questions for Lee/Mark
+	2. dropped "changing root domain" from course?
+
 
 ## Lee teaching Eval
 	###Strengths
