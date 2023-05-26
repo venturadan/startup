@@ -346,10 +346,9 @@
 	-[] startup
 - [] catch up on all JS readings
 - [] go back and compare my (CodePen) solutions to Lee's; also, give them all appropriate titles
-- [] organize weeks 3?-6 into questions/blathering/etc. before lunch tomorrow
 - [] Go back over instruction up through CSS and edit typos
 - [] Divide instruction/schedule into week chunks
-- [] What to about the prodution deployment stuff in 1.7 slides we didn't cover and I don't understand?
+- [] What to about the production deployment stuff in 1.7 slides we didn't cover and I don't understand?
 	- ask Lee about the staging/production envs and how the automated/continuous integration works (and why is there still a manual link there?)
 	- figure out how to make them aware that it is a thing without spending any realy time on it.
 - [] create personal AWS account?
@@ -442,7 +441,7 @@
 		- great at live coding quickly and efficiently
 		- very respectful, and helpful and patient
 	###Weaknesses
-		- pacing sometimes (too much on easy stuff, rushing on harder/later topics
+		- pacing sometimes (too much on easy stuff, rushing on harder/later topics)
 		- possibly confusing rabbit holes sometimes?
 		- most people aren't coming to class (I think) because all the instruction is online---not sure if that's bad or good...
 		- maybe spends time on/allows a bit too many off-topic/weird questions that everyone else doesn't want to hear?
@@ -456,8 +455,10 @@
 2. Is working in class a good thing or no?  Should they all bring laptops for doing so?
 3. Are Simon assigments just part of the 60% that is startup grade? Or should they be separate?
 4. Should required readings be enforced?
-5. How does late work policy and is it actually beneficial?  How often do people get hosed by getting behind compared to getting partial credit when due?  Since we are building on earlier stuff, is there even a way forward without late leniency?
+5. How does late work policy work and is it actually beneficial?  How often do people get hosed by getting behind compared to getting partial credit when due?  Since we are building on earlier stuff, is there even a way forward without late leniency?
 6. Is it ok if almost no one comes to class (because everything is already online, or???) midway through spring about 40% attending
+7. What is the point of in class if the slides and all instruction is available online?
+8. How does online course interact with inperson course (same TAs, same assignments?, same due dates?)
 
 ## Pedogogical Blatherings
 1. Is Menti.com a useful tool?
@@ -465,13 +466,13 @@
 	1. there's one on GitHub about the class tech (mostly), and it should be in the slides?
 	2. should we have one with underlying internet stuff at the level Mark had on the board as well?
 	3. and how do those two relate?
-3. Can my PhD students get paid enough to TA this course?
+3. Can my PhD students get paid enough to TA this course? Yes.
 4. Does the course view/organization in GitHub/Canvas make sense?
 5. What is the point of in-person class, if the slides and (more critically) all the talking for the slides (instruction) is online (is it, in fact)?
 	1. should I use (some) different slides?
 	2. should I be saying (some) other stuff for slides in class?
 		- a little bit of inspiring rah rah (TBL is just one regular dude), some useful info (leave rest to be read), demo???
-6. How to balance answering questions with moving along (especially when they are remedial, and we've already talke about it)?
+6. How to balance answering questions with moving along (especially when they are remedial, and we've already talked about it)?
 7. Watch out for pacing (duh)
 8. HTML isn't about structure; it's about content?
 9. Should we have a "personal" server to demo stuff in class (so we don't have to show stuff on the main class server)?
