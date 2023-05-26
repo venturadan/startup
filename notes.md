@@ -332,8 +332,17 @@
 19. show attribute info (also) in DOM tree slide
 	1. should we also show JS contributing to the DOM?
 20. on common JS Modules slide, should `.\greet` be '.\hello'?
-
-
+21. in Promises slides, 18-19, why are there two statements in the `p.then` block and why are they separated by a comma and how are they differentiated during execution?
+22. Pizza Promise example on slides has extra `.then` for makePizza that the linked CodePen doesn't (and which the assignment asks you to add)
+23. Async slides 27 and 28 don't agree with outputs in CodePen, and they are both the same in CodePen: `// [object Promise] {}`
+24. And on slide 29, the code throws an error: `SyntaxError: Unexpected identifier 'cow'. Expected ')' to end an argument list. 
+ at https://cdpn.io/cpe/boomboom/pen.js?key=pen.js-3dbb7c5b-20f1-78f3-ad44-09488171e5a1:6` (the last reference to `cow`)
+25. Same problem for slide 32 with `cattleDrive()`
+	- but it works fine, if the `await` in `console.log(await cattleDrive())` is dropped...???
+	- though the `Promise {<fulfilled>}` output doesn't materialize...???
+26. And the Async/await stuff on slide 25 doesn't work either, of course.
+27. For Async slide 33, this: `Remember that async will auto-generate a promise if not explicitly returned` makes it sound like you don't have to write a Promise into your function, even though the example on the slides shows it that way.  Do you or don't you?  If not, we should show it both ways.
+28. Need to better understand promises, await, async and the instruction and slides need to better explain it all somehow
 	
 	
 ## To Do
@@ -344,7 +353,9 @@
 - [] maybe try doing the CSS myself and then again with bootstrap?
 - [] CSS assignments
 	-[] startup
-- [] catch up on all JS readings
+- [] JS assignments
+	-[] async/await
+	-[] startup
 - [] go back and compare my (CodePen) solutions to Lee's; also, give them all appropriate titles
 - [] Go back over instruction up through CSS and edit typos
 - [] Divide instruction/schedule into week chunks
@@ -427,6 +438,9 @@
 	```javascript
 	console.log('class is ' + obj.class + ' and is of type ' + typeof(obj.class))
 	```	
+42. What does this mean, from Aysnc slides: "Rule for using await: top level module function or called from an async function"
+
+`
 	
 	
 ## Questions for Lee/Mark
