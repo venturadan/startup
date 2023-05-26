@@ -136,29 +136,29 @@
 2. CSS is just a bunch of rules that select an HTML element and apply declarations to it
 	1. Browser introduces some defaulty rules; some CSS devs immediately wipe all those (how?) for better control
 	2. look at element/styles in browser dev tools
-4. Three ways to style (cascading preference order, highest to lowest)
+3. Three ways to style (cascading preference order, highest to lowest)
 	1. inline style attribute in HTML (using CSS declaration)---kind of lame/old/coupled/clunky
 	2. put the rule separately in HTML
 	3. put rules in an external file---best/modular approach
-5. That's all there is to it---simple to learn; lifetime to master---it's subtle
-6. Bootstrap is a CSS framework we are using???
-7. `command /` comments out a highlighted block in Code
-8. Some styling notes
+4. That's all there is to it---simple to learn; lifetime to master---it's subtle
+5. Bootstrap is a CSS framework we are using???
+6. `command /` comments out a highlighted block in Code
+7. Some styling notes
 	1. `font-size 3em` means 3x the width of the m in the parent font (size)
 	2. 3rem is relative to the document, instead of the parent font
 	3. start/end instead of left/right for language agnostic placment
-9. Box model---In HTML, everything is boxes:content, padding, border, margin---make sure you are on the right element, and look at elements/style box view
-10. you can tweak everything in browser debugger---edit as HTML
-11. Get to know all the CSS stuff
-12. HTML is content/semantic "structure", but not location/relation structure
-13. learn more about fonts and animation (we went way too fast)
-14. what is the `display` style thing that we skipped?
-15. native app and responsive design are different
-16. `<meta name="viewport"/>` tells device to not guess scaling
+8. Box model---In HTML, everything is boxes:content, padding, border, margin---make sure you are on the right element, and look at elements/style box view
+9. you can tweak everything in browser debugger---edit as HTML
+10. Get to know all the CSS stuff
+11. HTML is content/semantic "structure", but not location/relation structure
+12. learn more about fonts and animation (we went way too fast)
+13. what is the `display` style thing that we skipped?
+14. native app and responsive design are different
+15. `<meta name="viewport"/>` tells device to not guess scaling
 	1. Lots of stuff we do is because of legacy problems (like when pages weren't written well for a device) that still haven't gone away yet
-17. Froggy?  What the heck is this?
-18. bootstrap framework
-21. CDN is a content delivery network---just a URL-accessible repo of stuff?
+16. Froggy?  What the heck is this?
+17. bootstrap framework
+18. CDN is a content delivery network---just a URL-accessible repo of stuff?
 
 # Week 5
 1. you can do local storage in the browser that survives refresh (it's in simon-js?)
@@ -168,42 +168,40 @@
 3. What is a good answer to the difference between compile and interpret---they both create binaries?  Compile once (locally) or "compile" on demand (interpreter)
 4. console tab in Chrome Inspect is a JS interpreter---is this true/exact?
 	1. sources tab lets you see code, breakpoints, step through, etc.
-6. If you want to have liveserver run JS, you need to either tell it to load Node.js, or write some HTML for it to pass to a browser, which will then run it.
-7. JS is weakly typed
-8. figure out the code thing we did in class for most of the time
-9. pop out debugger from the browser
-10. what the heck was Lee talking about object vs object vs Object?
+5. If you want to have liveserver run JS, you need to either tell it to load Node.js, or write some HTML for it to pass to a browser, which will then run it.
+6. JS is weakly typed
+7. figure out the code thing we did in class for most of the time
+8. pop out debugger from the browser
+9. what the heck was Lee talking about object vs object vs Object?
 	objects like dictionary or map?
-11. undefined vs null
+10. undefined vs null
 	undefined is a type (like object is) and a "value" for that type?
-12. why are anon functions cool?
-13. Arrow functions
+11. why are anon functions cool?
+12. Arrow functions
 	1. this pointer in JS?  In general?
-14. Closure=function with state?
-15. factory pattern
-16. is numbers.push() an operator or a method?
-17. Going through 2.5 hours of code seems like it's boring everyone...Is there a way to cover the basics of JS better than that?
-18. objects are collections? sets? of key,value pairs; key must be string (or symbol)
+13. Closure=function with state?
+14. factory pattern
+15. is numbers.push() an operator or a method?
+16. Going through 2.5 hours of code seems like it's boring everyone...Is there a way to cover the basics of JS better than that?
+17. objects are collections? sets? of key,value pairs; key must be string (or symbol)
 	they can be nested
 	methods?
 	iterator `in` vs `of`
-19. what the heck is up with `spread` and `rest`?
-20. map and reduce are confusing for people, especially when we get to the beaches example
+18. what the heck is up with `spread` and `rest`?
+19. map and reduce are confusing for people, especially when we get to the beaches example
 	1. why does [p.shore] mean a string?
-21. Is destructuring like unzipping in Python?
-22. You can only return a single value in JS; destructuring returns lets you pretend that,s not true
-23. JS is inline and cryptic and kind of gross
+20. Is destructuring like unzipping in Python?
+21. You can only return a single value in JS; destructuring returns lets you pretend that,s not true
+22. JS is inline and cryptic and kind of gross
 	1. does it make the functionality clear or obfuscate it?
 
 # Week 6
-1. JSON is a way to transfer JS objects (and few other things?) across machines or into DB
-	1. how do you pronounce this: sawn or sun
+1. JSON is a way to transfer JS objects (and a few other things?) across machines or into DB
+	1. how do you pronounce this: funny video by inventor
 	2. not a serialization of objects, just a text representation
 2. `this._weather` is a convention to tell people it's private; now you can enforce with `#`
 3. `get`/`set` makes things appear as properties rather than functions
-4. don't need to used `function` keyword inside a class
-5. show attribute info (also) in DOM tree slide
-	1. should we also show JS contributing to the DOM?
+4. don't need to use `function` keyword inside a class
 7. `document` is the name of the DOM in the browser inspecter
 8. caniuse.com tells you which JS things you can use in which browser (starting when)
 	1. MDN has this info way down at the bottom of articles as well
@@ -354,6 +352,8 @@
 	1. The assignment spec is really short on detail/clarity---not sure what is supposed to be done---maybe just talk more about chaining `.then` statements?
 17. URL slide---show two parameters separated by ampersand?
 18. HTML Slide (3.1) "Header" is overloaded and misleading
+19. show attribute info (also) in DOM tree slide
+	1. should we also show JS contributing to the DOM?
 
 	
 	
