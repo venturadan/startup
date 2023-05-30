@@ -329,6 +329,9 @@
 	1. auto installed via AMI
 	2. shouldn't have to mess with it
 	3. but should know it's there
+27. recommend not using Windows in general linux/mac is better (don't forget getbash vs. command prompt)
+28. why for services are we now doing static hosting from `public`?
+29. is the Playwrite/UI/backend testing stuff useful to try to include at the level it is?
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
@@ -389,7 +392,6 @@
 	- though the `Promise {<fulfilled>}` output doesn't materialize...???
 26. And the Async/await stuff on slide 25 doesn't work either, of course.
 27. For Async slide 33, this: `Remember that async will auto-generate a promise if not explicitly returned` makes it sound like you don't have to write a Promise into your function, even though the example on the slides shows it that way.  Do you or don't you?  If not, we should show it both ways.
-28. Need to better understand promises, await, async and the instruction and slides need to better explain it all somehow
 	
 	
 ## To Do
@@ -486,8 +488,7 @@
 	console.log('class is ' + obj.class + ' and is of type ' + typeof(obj.class))
 	```	
 42. What does this mean, from Aysnc slides: "Rule for using await: top level module function or called from an async function"
-
-`
+43. Need to better understand promises, await, async and the instruction and slides need to better explain it all somehow
 	
 	
 ## Questions for Lee/Mark
@@ -508,6 +509,7 @@
 		- maybe spends time on/allows a bit too many off-topic/weird questions that everyone else doesn't want to hear?
 		- maybe over does the enthusiasm (chanting HTTP)?
 		- sometimes history rabbitholes are more confusing than helpful (when I started doing web programming we didn't have http...)
+		- pacing (but in Spring first time, so probably tricky)
 	
 ## Lunch topics
 1. How are we suppose to share/interact with course GitHub repo? 
@@ -540,7 +542,7 @@
 9. Should we have a "personal" server to demo stuff in class (so we don't have to show stuff on the main class server)?
 10. Start class by showing what they will hopefully know (overall picture, a bit of each thing, commandline, debugging, etc.) and what they can't possibly expect to know (html/cs/js/frameworks/react)
 11. not my job to know all the HTML/CSS/etc.  My job is to give mental models, work flow, how to debug/problem solve, find answers, etc.
-
+12. how to balance focusing on concepts/mental models with actual implementation/code?
 
 ## Assignment stuff
 1. CONSOLE: xxyy
