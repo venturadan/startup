@@ -282,7 +282,37 @@
 	response slide has 15 when it should have 14 for length
 22. cname in DNS is an alias; the same as a redirect 301/302 status code
 23. never assume the browser is enforcing your security (e.g., if you change the timeout in the cookie in the browser, the server should still get you on the original timeout
-		
+	
+# Week 9
+1. CORS is supported/enforced by browser, so if you use curl or your own browser, then all bets are off
+	1. if the API you want to hit doesn't allow cross resource sharing, you are hosed
+2. Why did Lee's CORS error demo not give the expected error (but just worked, instead)?
+3. Be intentional about your design
+	1. Core development mindset: design before coding, security, testing
+4. endpoints are functions your service exposes
+	1. figure out by doing a sequence diagram (or something like it)
+	2. API is a bigger/older version of this?
+5. what's YAML?
+6. What's with the Noun fixation?  That's how Tim set it up?
+7. Why talk about RPC if it is deprecated/goofy?
+8. What is up with REST?
+	1. leverage HTTP as much as possible
+9. Why talk about GraphQL?
+	1. super flexible for frontend/client
+	2. kind of a nightmare for backend/security
+10. seems like we should have just talked way more about REST... (5.2 slides)
+	1. some examples
+11. We picked Node.js because it's popular and uses JS
+12. You can just install Node instead of NVM, if you don't want to fiddle with versions (Windows can have trouble occasionally).
+13. demo .js file both in chrome and on console (both pasting after running node and making a file and running the file with node)
+	1 pbpaste?
+14. Look at package code/shell scripts you download before you just run it on your machine
+15. what is npm init for?
+	1. don't check node_modules into git (put it in .gitignore)
+16. you can run your code in Code and have it run Node.js to run/debug
+17. in general, you can't run a node.js package in browse, only common ES packages
+18. frontend code: debug in browser, backend code: debub in Code/Node.js
+	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
 	- what is TLD (for click server)?
@@ -460,6 +490,7 @@
 		- most people aren't coming to class (I think) because all the instruction is online---not sure if that's bad or good...
 		- maybe spends time on/allows a bit too many off-topic/weird questions that everyone else doesn't want to hear?
 		- maybe over does the enthusiasm (chanting HTTP)?
+		- sometimes history rabbitholes are more confusing than helpful (when I started doing web programming we didn't have http...)
 	
 ## Lunch topics
 1. How are we suppose to share/interact with course GitHub repo? 
