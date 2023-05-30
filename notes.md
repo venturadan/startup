@@ -543,6 +543,7 @@
 10. Start class by showing what they will hopefully know (overall picture, a bit of each thing, commandline, debugging, etc.) and what they can't possibly expect to know (html/cs/js/frameworks/react)
 11. not my job to know all the HTML/CSS/etc.  My job is to give mental models, work flow, how to debug/problem solve, find answers, etc.
 12. how to balance focusing on concepts/mental models with actual implementation/code?
+13. how much of this class could be done just using bubble.io (what Spencer is using for "lowcode")?  How would the experience be different?  What couldn't be done in bubble.io?  How much "tax" does bubble impose for server hosting, etc.?
 
 ## Assignment stuff
 1. CONSOLE: xxyy
