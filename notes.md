@@ -312,6 +312,23 @@
 16. you can run your code in Code and have it run Node.js to run/debug
 17. in general, you can't run a node.js package in browse, only common ES packages
 18. frontend code: debug in browser, backend code: debub in Code/Node.js
+19. Node.js democratized web service development---that's why it was/is cool/changed the world
+20. Express is a nice wrapper of patterns/etc. for building http web servers (like ??? or tailwind for CSS)
+	1. should we call app objects app?
+	2. do we need some more complex examples to show how it really works
+	3. express advertises itself in the autoheader, which is lame and dangerous (gives attackers info)
+21. what is the point of `next` function in middleware callback if it is just called as `next()`?
+	1. why don't all middleware pieces include `next()`?
+	2. why did the public path in the example note have to be explicit in the url?  Caddy?
+22. understand web API stack
+23. `app.use(express.static('public'));` replaces using the liveserver in Code
+	1. new deployment script now
+24. app.router modularizes your endpoints (for organization/understandability/special paths)
+25. super confusing flow today (maybe not the case in the actual slides, because we hopped around)
+26. PM2 is a daemon process that keeps our http server stuff runnig
+	1. auto installed via AMI
+	2. shouldn't have to mess with it
+	3. but should know it's there
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
