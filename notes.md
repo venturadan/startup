@@ -250,6 +250,7 @@
 1. review readings/slides I missed
 2. find out what was the review about/how it was done?
 3. Can I take the midterm?  Take it.
+4. Understand local storage (did that happen this week?  I think so...)
 	
 # Week 8
 1. Bounced all the way back to UX/UI design stuff.  Why? Spring thing.  If we do it, we should do it with CSS (or before even?)
@@ -332,6 +333,45 @@
 27. recommend not using Windows in general linux/mac is better (don't forget getbash vs. command prompt)
 28. why for services are we now doing static hosting from `public`?
 29. is the Playwrite/UI/backend testing stuff useful to try to include at the level it is?
+	
+# Week 10
+1. Login assignment should be before database assignment because it's similar but probably easier
+2. data stored locally in front end, in memory on backend, finally in DB for persistence (but why not just in file on disk on the backend?). DB is hopefully redundant, elastic, persistent, safe, reliable, etc.  Also, it may offer additional functionality for manipulating data, etc.
+3. Relational DBs are kind of a jack of all trades---can do all kinds of data/stuff; more specialized servers for specific kinds of data
+4. Mongo DB is schema free, so super flexible but slow (can index on common fields to improve performance); can hang yourself with it, too.  The JS of DBs
+5. You don't have to do `npm init`; it just loses some info
+6. Mongo uses its own protocol and puts credentials in the URL (which is valid HTML but normally a bad idea but ok in the case of doing this from a secure server environment, as opposed to from your browser)
+7. How do you know what to name MongoClient when you deconstruct the return object from mongodb require?
+8. check out mailinator
+9. Be really prepared if you are going to live demo stuff?
+10. spending time doing stuff like signing up for Mongo (which is covered in instructions) is probably not helpful/good use of time
+11. don't hardcode credentials in code you are going to commit to (public) github repo. Bots crawl github looking for just that kind of thing.
+	1. put them in a file instead
+	2. put that file in .gitignore
+	3. if you accidentally commit even once, you are hosed (because git doesn't forget anything)
+	4. does them having your credentials matter, if you restrict network access?
+	5. Database on left of Atlas lets you find your connection string
+12. Asynchronous stuff can be goofy---it might take a bit to get in the DB, for example
+	1. the process doesn't quit if the DB connection is still open; explicitly close
+13. You can insert the same data twice in the same Mongo collection because it make a unique ID for each object
+14. commonJS and requires???
+15. spend time in class understanding code; not necessarily writing/running it
+16. I need the right mental model of promises and async/await
+17. check out jq
+18. you debug your backend code in Code; you debug your frontend code in browser tools
+19. why does simon db only update scores locally?  It must not, right?
+20. you can hack the code to cheat the score locally (in browser storage), but also by hacking var sent to DB.  How do we stop that from being possible?  It's hard because the hack is happening on the client, which you don't control.  All your security stuff has to happen on the backend in your secure environment---what can you do there to authenticate the data you are getting?
+21. Why can github suddenly not commit this because this file cannot be edited? (somehow got signed out of github after already editing)
+22. Dont' do authentication, if you can get away without that wall---more users and more usage
+	1. if you do use it, you are responsible for protecting those data/credentials
+	2. maybe use sso through another service (google, facebook, etc.)
+		- still have to be security-minded (if you think you're good, you're probably not)
+		- but don't have to store credentials
+23. What is salting a hash?  Is pepper a thing (it came from ethan...)?
+	1. if this is really important data, you probably want to turn this over to specialists
+24. The front end is a dirty, scary, unsecure place
+25. Clients/frontend are really involved with cookies and you can make sure they can't even read them---they are server stuff that lives on your client
+26. token stored in cookie lets you stay logged in
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
