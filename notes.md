@@ -503,6 +503,7 @@
 	-[] startup
 - [] web services instruction
 - [] web services assignments
+- [] sort weeks 9,10,11 questions
 - [] go back and compare my (CodePen) solutions to Lee's; also, give them all appropriate titles
 - [] Go back over instruction up through JS and edit typos
 - [] Divide instruction/schedule into week chunks
