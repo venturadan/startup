@@ -373,6 +373,27 @@
 25. Clients/frontend are really involved with cookies and you can make sure they can't even read them---they are server stuff that lives on your client
 26. token stored in cookie lets you stay logged in
 	
+# Week 11
+1. Learn from Simon---not copying, leveraging knowledge and then reinventing/improving
+2. React port is the hardest of all deliverables
+3. http doesn't work great for peer-to-peer no-request stuff
+	1. it was originally created by Tim for requesting papers
+	2. Websockets lets a server just give you stuff whenever it wants (rather than when you want/request)
+		- clever because it piggybacks on extant HTTP infrastructure
+	3. This is how LiveServer works
+		- check it out by running and then looking in browser dev tool
+4. core tech for JS is http; express wraps that; WebSocket does the same thing?
+	1. `ws` is name of package and the name of the protocol
+5. don't forget npm install
+6. no convention on which port to use for sockets
+7. why is your development environment not secure/using HTTP rather than HTTPS?
+8. For chat example why do we separate the HTTP server from the WS server?  What does that mean?  How did we not do that in the earlier example from slides?
+9. For chat example, why is the fowarding thing happening?
+10. Chat example is about 120 lines of code and is basically Twitter!
+11. What actually is a factory method?
+12. Simon ws stuff is almost exactly the same as chat example.
+	
+	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
 	- what is TLD (for click server)?
@@ -550,6 +571,7 @@
 		- maybe over does the enthusiasm (chanting HTTP)?
 		- sometimes history rabbitholes are more confusing than helpful (when I started doing web programming we didn't have http...)
 		- pacing (but in Spring first time, so probably tricky)
+		- how to make CodePen solutions useful/available, without letting students just copy/paste for assignments
 	
 ## Lunch topics
 1. How are we suppose to share/interact with course GitHub repo? 
