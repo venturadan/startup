@@ -501,8 +501,10 @@
 - [] JS assignments
 	-[] async/await
 	-[] startup
+- [] web services instruction
+- [] web services assignments
 - [] go back and compare my (CodePen) solutions to Lee's; also, give them all appropriate titles
-- [] Go back over instruction up through CSS and edit typos
+- [] Go back over instruction up through JS and edit typos
 - [] Divide instruction/schedule into week chunks
 - [] What to about the production deployment stuff in 1.7 slides we didn't cover and I don't understand?
 	- ask Lee about the staging/production envs and how the automated/continuous integration works (and why is there still a manual link there?)
