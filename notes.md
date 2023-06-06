@@ -415,7 +415,20 @@
 	2. it's all asynchronous
 	3. React sits in between you and the DOM, with state and property variables
 24. Vite is a tool to let you use this stuff in your dev/production environment
- 	
+25. Networking is super important---it gets you everywhere (Lee got first job from a BYU class, and his next 10 from people at his first job)
+26. Original model: pages; Now: components---we aren't getting docs anymore, and we have a computer in our pocket---use it
+27. Now, it's a single page, which makes debugging easier, sharing data easier---it's actually an application now
+28. Live convert simon web framework to simon react seems like a bad idea
+29. What the heck is vite, actually?
+	1. Why are we "flipping" stuff for dev now, but not for build?
+	2. front end code is the first?
+	3. tool chain+server+debugger?
+30. What is the mental model here?
+31. Native apps don't use a browser and the DOM
+	1. so react and react-DOM are separate
+32. How do bootstrap and React work together?  What is the mental model of what they are relative to each other?
+33. In Code, command-shift-L (to select all instantiations of a var), command-D???, etc.
+	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
 	- what is TLD (for click server)?
