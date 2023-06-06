@@ -392,8 +392,30 @@
 10. Chat example is about 120 lines of code and is basically Twitter!
 11. What actually is a factory method?
 12. Simon ws stuff is almost exactly the same as chat example.
-	
-	
+13. React is Facebook; Angular is Google
+	1. Angular is more prescribed, React more like Express in the sense of flexibility
+	2. React just changed a bunch of stuff, which made people cranky
+	3. React is getting old and bloated?
+14. Web frameworks abstracts HTML/CSS/JS 
+15. How does Bubble.io relate to web frameworks?
+16.separating by functionality makes more sense than separating by file structure (but the file structure isn't completely arbitrary either...)
+17.Babel transpilation of JSX happens on the server, not on the client/brower; then static html/css/js can be served normally using middleware
+18. We rewrite our whole app into JSX as the last deliverable
+19. Babel in Babel or Babel in CodePen?
+	1. change JS preprocessor in CodePen to use Babel
+20. How does <noscript> know you don't have JS enabled?
+21. To scrape modern webframeworks, you have to render it first, just like a browser
+22. think of your app as a tree of components
+	1. In React, a component is a function
+	2. How does CSS play into this way of thinking about things?
+	3. classes were the old way to do it, how we just use functions
+	4. {} are used for JS escape/execute and also destructuring (that's really dumb)
+23. Properties let your stuff react to the state of the system
+	1. creates a virtual DOM??? and then projects that into the actual DOM
+	2. it's all asynchronous
+	3. React sits in between you and the DOM, with state and property variables
+24. Vite is a tool to let you use this stuff in your dev/production environment
+ 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
 	- what is TLD (for click server)?
