@@ -496,8 +496,6 @@
 - [] fix my design to show some websocket usage case (and the other screen shot?)
 - [] fix my html to show some websocket usage case
 - [] maybe try doing the CSS myself and then again with bootstrap?
-- [] CSS assignments
-	-[] startup
 - [] JS assignments
 	-[] async/await
 	-[] startup
