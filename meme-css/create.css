@@ -1,0 +1,25 @@
+/* HIDE RADIO */
+.choice input { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+.choice + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+.choice input:checked + img {
+  outline: 2px solid #f00;
+}
+
+label {
+    padding: 0.3em 0.3em;
+}
+
+button {
+    padding: 3em 0; /*why doesn't this work?  I added an empty paragraph before button instead, which is super dumb */
+}
