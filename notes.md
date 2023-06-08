@@ -428,6 +428,26 @@
 	1. so react and react-DOM are separate
 32. How do bootstrap and React work together?  What is the mental model of what they are relative to each other?
 33. In Code, command-shift-L (to select all instantiations of a var), command-D???, etc.
+
+# Week 12
+1. shadow DOM vs DOM
+	1. React changes shadow DOM (which is somehow faster/better for tweaking/analysis)
+	2. Once that's all fixed, then it translates to DOM and then renders
+2. in update count example, where is the function `updateCount` defined?
+	1. what was wrong about this slide code (doing it old/new way)?
+3. need better useEffect demo by having state included that forces/allows re-rendering of parent/node
+	1. onclick change hello cow to hello fish, forcing re-render of parent (then show clicking keep happening but state not changing any more)
+	2. conditional effect change---dependency argument: don't use=always re-render; []=re-render first time only; [y]=re-render when y changes
+4. burger/fish demo is cool for showing stuff, but it's a bad design in the sense that you can't buy two of same thing in a row
+	1. can we make the reactive stuff less "pass-throughy"?
+5. don't confuse jsx and components
+	1. jsx is just a way to combine html and js
+	2. components are react things that contain/return jsx (which is then converted into html/js and inserted into DOM)
+	3. a way to abstract/cleanup the way things are represented
+		- it would be good to have any example that shows jsx/component stuff and what is transpiles to for the js DOM manipulation actually
+	4. React is entirely front end
+		1. Is express back end?
+		2. what about bootstrap?
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
@@ -642,6 +662,9 @@
 11. not my job to know all the HTML/CSS/etc.  My job is to give mental models, work flow, how to debug/problem solve, find answers, etc.
 12. how to balance focusing on concepts/mental models with actual implementation/code?
 13. how much of this class could be done just using bubble.io (what Spencer is using for "lowcode")?  How would the experience be different?  What couldn't be done in bubble.io?  How much "tax" does bubble impose for server hosting, etc.?
+14. front end vs. back end; development vs. production
+15. Two main kinds of mistakes: syntax/semantics (no big deal) vs. broken mental model (big deal)
+	1. our goal is to eliminate the second; can't eliminate the first
 
 ## Assignment stuff
 1. CONSOLE: xxyy
