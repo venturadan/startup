@@ -440,14 +440,26 @@
 	2. conditional effect change---dependency argument: don't use=always re-render; []=re-render first time only; [y]=re-render when y changes
 4. burger/fish demo is cool for showing stuff, but it's a bad design in the sense that you can't buy two of same thing in a row
 	1. can we make the reactive stuff less "pass-throughy"?
+		- it's a lot like a final question
+	2. the color picker example is pretty gooo
 5. don't confuse jsx and components
 	1. jsx is just a way to combine html and js
 	2. components are react things that contain/return jsx (which is then converted into html/js and inserted into DOM)
 	3. a way to abstract/cleanup the way things are represented
 		- it would be good to have any example that shows jsx/component stuff and what is transpiles to for the js DOM manipulation actually
 	4. React is entirely front end
-		1. Is express back end?
-		2. what about bootstrap?
+		- Is express back end?
+		- what about bootstrap?
+6. Why are we porting the whole project to React
+	1. the *real* question is why we didn't just use React to start with?
+		- because you need to have mental models of the underlying tech so you know what a web framework actuall does
+7. how can you push new version of project before TAs have graded the old one?
+	1. you can't, really, so use a different subdomain (or simon)
+8. Vite lets you finally easily use modules because it manages all the stuff
+9. when changing `<a>` links to `Navlinks`, why do we not want to do that for the GitHub link (or we could, and what would that mean, exactly)?
+	1. we don't need shadow DOM to worry about routing/updated to that?
+10. Doing lots of long chunks of code in class doesn't seem to be great for people watching
+
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
@@ -665,6 +677,7 @@
 14. front end vs. back end; development vs. production
 15. Two main kinds of mistakes: syntax/semantics (no big deal) vs. broken mental model (big deal)
 	1. our goal is to eliminate the second; can't eliminate the first
+	2. if you understand syntax, you can make little local tweaks and minor changes; but if you have a good underlying mental model, you can make large global changes
 
 ## Assignment stuff
 1. CONSOLE: xxyy
