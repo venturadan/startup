@@ -482,7 +482,14 @@
 	2. why have multiple "companies" to support apple/android/desktop/browser instead of one app promised by Steve Jobs in 2007?
 12. what is Ioniq? It's like React-native?
 13. Should we do PWA instead of React?
-	
+14. Is going over typescript useful?
+	1. typscript is built right into vite, which is kind of cool?
+	2. typscript is just for development---nothing is enforced at runtime (it gets Babeled into normal JS)
+		- if types get incorporated into JS, then it will be enforced during runtime
+15. Lighthouse is built into Chrome dev tools to do some performance analysis of your web app
+16. Plus, there is the performance tab in the dev tools debugger
+17. Tools like Pingdom will test your performance across the global network
+18. Throttling in the dev tools lets you simulate "realistic"/slow conditions
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
