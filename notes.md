@@ -460,6 +460,21 @@
 	1. we don't need shadow DOM to worry about routing/updated to that?
 10. Doing lots of long chunks of code in class doesn't seem to be great for people watching
 
+# Week 13
+1. Why is ransomware so bad?  Why not just have backups?
+2. People just want to get the job done---they aren't trying to build insecure systems (but were they trying to put security first)?
+	1. learn a lot about security and use it first in all your development
+3. Hackers and robots hitting every common known pattern/attack/weakness all the time---thinking you'll just get lucky or you are too obscure it just letting them in
+4. show injection attack on others' computers in chat.cs260.click
+	1. don't use innerHtml (or at least be careful where you use it)
+	2. SQL injection?
+5. hactivists updated NPM package to nuke Russian harddrives (after they invaded)
+6. We need to update AMI regularly to keep up
+7. how to balance security with usability?
+	1. e.g. throttling/response backoff instead of lockout
+8. add pics to slides where appropriate for interest/mnemonics
+9. you can't protect the front end (because it's someone else's computer); you can only (maybe) protect the backend because that's where you have control
+10. understand url used in and server side request forgery in general
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
