@@ -475,6 +475,14 @@
 8. add pics to slides where appropriate for interest/mnemonics
 9. you can't protect the front end (because it's someone else's computer); you can only (maybe) protect the backend because that's where you have control
 10. understand url used in and server side request forgery in general
+11. PWA---the browser is the OS
+	1. how does this circumvent the App Store?
+		- still using browser but running in a container that looks like an app
+		- use spotify and live.browserstack.com with Simon to demo
+	2. why have multiple "companies" to support apple/android/desktop/browser instead of one app promised by Steve Jobs in 2007?
+12. what is Ioniq? It's like React-native?
+13. Should we do PWA instead of React?
+	
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
