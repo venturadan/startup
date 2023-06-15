@@ -491,6 +491,16 @@
 17. Tools like Pingdom will test your performance across the global network
 18. Throttling in the dev tools lets you simulate "realistic"/slow conditions
 	
+#Week14
+1. Kahoot review (should I do this?)
+	1. What kinds of questions are best for these exams?
+2. Demo day (should I do this?)
+	1. What are the criteria to use for judging who gets in?
+	2. How do you get everyone to show up and listen/vote? Why should they care?
+	3. How many to let in?
+	4. How much to reward?
+	5. Do it online instead so everyone can participate?  Save time?
+	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
 1. AWS
 	- what is TLD (for click server)?
