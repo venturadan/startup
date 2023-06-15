@@ -500,6 +500,11 @@
 	3. How many to let in?
 	4. How much to reward?
 	5. Do it online instead so everyone can participate?  Save time?
+	6. Have different categories?
+		- best idea
+		- best design
+		- stickiest
+		- overall
 3. Ended one hour (almost one T/Th class period early)
 	
 ## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
