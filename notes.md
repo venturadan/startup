@@ -440,20 +440,13 @@
 6. We need to update AMI regularly to keep up
 7. how to balance security with usability?
 	1. e.g. throttling/response backoff instead of lockout
-8. add pics to slides where appropriate for interest/mnemonics
 9. you can't protect the front end (because it's someone else's computer); you can only (maybe) protect the backend because that's where you have control
-10. understand url used in and server side request forgery in general
 11. PWA---the browser is the OS
 	1. how does this circumvent the App Store?
 		- still using browser but running in a container that looks like an app
 		- use spotify and live.browserstack.com with Simon to demo
 	2. why have multiple "companies" to support apple/android/desktop/browser instead of one app promised by Steve Jobs in 2007?
 12. what is Ioniq? It's like React-native?
-13. Should we do PWA instead of React?
-14. Is going over typescript useful?
-	1. typscript is built right into vite, which is kind of cool?
-	2. typscript is just for development---nothing is enforced at runtime (it gets Babeled into normal JS)
-		- if types get incorporated into JS, then it will be enforced during runtime
 15. Lighthouse is built into Chrome dev tools to do some performance analysis of your web app
 16. Plus, there is the performance tab in the dev tools debugger
 17. Tools like Pingdom will test your performance across the global network
@@ -544,6 +537,12 @@
 34. spend time in class understanding code; not necessarily writing/running it
 35. Live convert simon web framework to simon react seems like a bad idea
 36. Doing lots of long chunks of code in class doesn't seem to be great for people watching
+37. add pics to slides where appropriate for interest/mnemonics
+38. Should we do PWA instead of React?
+39. Is going over typescript useful?
+	1. typscript is built right into vite, which is kind of cool?
+	2. typscript is just for development---nothing is enforced at runtime (it gets Babeled into normal JS)
+		- if types get incorporated into JS, then it will be enforced during runtime
 
 
 	
@@ -664,6 +663,7 @@
 	2. front end code is the first?
 	3. tool chain+server+debugger?
  	4. What is the mental model here?
+58. understand url used in and server side request forgery in general
 
 	
 ## Questions for Lee/Mark
