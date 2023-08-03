@@ -427,7 +427,6 @@
 8. Vite lets you finally easily use modules because it manages all the stuff
 9. when changing `<a>` links to `Navlinks`, why do we not want to do that for the GitHub link (or we could, and what would that mean, exactly)?
 	1. we don't need shadow DOM to worry about routing/updated to that?
-10. Doing lots of long chunks of code in class doesn't seem to be great for people watching
 
 # Week 13
 1. Why is ransomware so bad?  Why not just have backups?
@@ -544,6 +543,7 @@
 33. spending time doing stuff like signing up for Mongo (which is covered in instructions) is probably not helpful/good use of time
 34. spend time in class understanding code; not necessarily writing/running it
 35. Live convert simon web framework to simon react seems like a bad idea
+36. Doing lots of long chunks of code in class doesn't seem to be great for people watching
 
 
 	
