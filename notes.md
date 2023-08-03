@@ -452,7 +452,7 @@
 17. Tools like Pingdom will test your performance across the global network
 18. Throttling in the dev tools lets you simulate "realistic"/slow conditions
 	
-# Week14
+# Week 14
 1. Kahoot review (should I do this?)
 	1. What kinds of questions are best for these exams?
 2. Demo day (should I do this?)
@@ -466,7 +466,7 @@
 		- best design
 		- stickiest
 		- overall
-3. Ended one hour (almost one T/Th class period early)
+3. Ended one hour early (almost one T/Th class period early)
 	
 ## Instruction question/notes
 1. AWS
@@ -725,7 +725,7 @@
 	1. our goal is to eliminate the second; can't eliminate the first
 	2. if you understand syntax, you can make little local tweaks and minor changes; but if you have a good underlying mental model, you can make large global changes
 16. Be really prepared if you are going to live demo stuff?
-
+17. How useful are multiple choice "coding" exams, really?
 
 
 ## Assignment stuff
