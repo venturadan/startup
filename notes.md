@@ -325,16 +325,11 @@
 27. recommend not using Windows in general linux/mac is better (don't forget getbash vs. command prompt)
 	
 # Week 10
-1. Login assignment should be before database assignment because it's similar but probably easier
 2. data stored locally in front end, in memory on backend, finally in DB for persistence (but why not just in file on disk on the backend?). DB is hopefully redundant, elastic, persistent, safe, reliable, etc.  Also, it may offer additional functionality for manipulating data, etc.
 3. Relational DBs are kind of a jack of all trades---can do all kinds of data/stuff; more specialized servers for specific kinds of data
 4. Mongo DB is schema free, so super flexible but slow (can index on common fields to improve performance); can hang yourself with it, too.  The JS of DBs
 5. You don't have to do `npm init`; it just loses some info
 6. Mongo uses its own protocol and puts credentials in the URL (which is valid HTML but normally a bad idea but ok in the case of doing this from a secure server environment, as opposed to from your browser)
-7. How do you know what to name MongoClient when you deconstruct the return object from mongodb require?
-8. check out mailinator
-9. Be really prepared if you are going to live demo stuff?
-10. spending time doing stuff like signing up for Mongo (which is covered in instructions) is probably not helpful/good use of time
 11. don't hardcode credentials in code you are going to commit to (public) github repo. Bots crawl github looking for just that kind of thing.
 	1. put them in a file instead
 	2. put that file in .gitignore
@@ -345,13 +340,8 @@
 	1. the process doesn't quit if the DB connection is still open; explicitly close
 13. You can insert the same data twice in the same Mongo collection because it make a unique ID for each object
 14. commonJS and requires???
-15. spend time in class understanding code; not necessarily writing/running it
-16. I need the right mental model of promises and async/await
-17. check out jq
 18. you debug your backend code in Code; you debug your frontend code in browser tools
-19. why does simon db only update scores locally?  It must not, right?
 20. you can hack the code to cheat the score locally (in browser storage), but also by hacking var sent to DB.  How do we stop that from being possible?  It's hard because the hack is happening on the client, which you don't control.  All your security stuff has to happen on the backend in your secure environment---what can you do there to authenticate the data you are getting?
-21. Why can github suddenly not commit this because this file cannot be edited? (somehow got signed out of github after already editing)
 22. Dont' do authentication, if you can get away without that wall---more users and more usage
 	1. if you do use it, you are responsible for protecting those data/credentials
 	2. maybe use sso through another service (google, facebook, etc.)
@@ -377,23 +367,18 @@
 5. don't forget npm install
 6. no convention on which port to use for sockets
 7. why is your development environment not secure/using HTTP rather than HTTPS?
-8. For chat example why do we separate the HTTP server from the WS server?  What does that mean?  How did we not do that in the earlier example from slides?
-9. For chat example, why is the fowarding thing happening?
 10. Chat example is about 120 lines of code and is basically Twitter!
-11. What actually is a factory method?
 12. Simon ws stuff is almost exactly the same as chat example.
 13. React is Facebook; Angular is Google
 	1. Angular is more prescribed, React more like Express in the sense of flexibility
 	2. React just changed a bunch of stuff, which made people cranky
 	3. React is getting old and bloated?
-14. Web frameworks abstracts HTML/CSS/JS 
-15. How does Bubble.io relate to web frameworks?
-16.separating by functionality makes more sense than separating by file structure (but the file structure isn't completely arbitrary either...)
-17.Babel transpilation of JSX happens on the server, not on the client/brower; then static html/css/js can be served normally using middleware
+14. Web frameworks abstract HTML/CSS/JS 
+16. Separating by functionality makes more sense than separating by file structure (but the file structure isn't completely arbitrary either...)
+17. Babel transpilation of JSX happens on the server, not on the client/brower; then static html/css/js can be served normally using middleware
 18. We rewrite our whole app into JSX as the last deliverable
 19. Babel in Babel or Babel in CodePen?
 	1. change JS preprocessor in CodePen to use Babel
-20. How does <noscript> know you don't have JS enabled?
 21. To scrape modern webframeworks, you have to render it first, just like a browser
 22. think of your app as a tree of components
 	1. In React, a component is a function
@@ -408,12 +393,6 @@
 25. Networking is super important---it gets you everywhere (Lee got first job from a BYU class, and his next 10 from people at his first job)
 26. Original model: pages; Now: components---we aren't getting docs anymore, and we have a computer in our pocket---use it
 27. Now, it's a single page, which makes debugging easier, sharing data easier---it's actually an application now
-28. Live convert simon web framework to simon react seems like a bad idea
-29. What the heck is vite, actually?
-	1. Why are we "flipping" stuff for dev now, but not for build?
-	2. front end code is the first?
-	3. tool chain+server+debugger?
-30. What is the mental model here?
 31. Native apps don't use a browser and the DOM
 	1. so react and react-DOM are separate
 32. How do bootstrap and React work together?  What is the mental model of what they are relative to each other?
@@ -561,7 +540,10 @@
 29. why for services are we now doing static hosting from `public`?
 30. Super confusing flow on REST/CORS day---check it out (maybe not the case in the actual slides, because we hopped around)
 31. Is the Playwrite/UI/backend testing stuff useful to try to include at the level it is?
-
+32. Login assignment should be before database assignment because it's similar but probably easier
+33. spending time doing stuff like signing up for Mongo (which is covered in instructions) is probably not helpful/good use of time
+34. spend time in class understanding code; not necessarily writing/running it
+35. Live convert simon web framework to simon react seems like a bad idea
 
 
 	
@@ -667,7 +649,21 @@
 	1. why don't all middleware pieces include `next()`?
 	2. why did the public path in the example note have to be explicit in the url?  Caddy?
 46. understand web API stack
-
+47. How do you know what to name MongoClient when you deconstruct the return object from mongodb require?
+48. check out mailinator
+49. I need the right mental model of promises and async/await
+50. Check out jq
+51. Why does simon db only update scores locally?  It must not, right?
+52. For chat example why do we separate the HTTP server from the WS server?  What does that mean?  How did we not do that in the earlier example from slides?
+53. For chat example, why is the fowarding thing happening?
+54. What actually is a factory method?
+55. How does Bubble.io relate to web frameworks?
+56. How does <noscript> know you don't have JS enabled?
+57. What the heck is vite, actually?
+	1. Why are we "flipping" stuff for dev now, but not for build?
+	2. front end code is the first?
+	3. tool chain+server+debugger?
+ 	4. What is the mental model here?
 
 	
 ## Questions for Lee/Mark
@@ -728,6 +724,7 @@
 15. Two main kinds of mistakes: syntax/semantics (no big deal) vs. broken mental model (big deal)
 	1. our goal is to eliminate the second; can't eliminate the first
 	2. if you understand syntax, you can make little local tweaks and minor changes; but if you have a good underlying mental model, you can make large global changes
+16. Be really prepared if you are going to live demo stuff?
 
 
 
