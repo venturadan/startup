@@ -293,7 +293,6 @@
 4. endpoints are functions your service exposes
 	1. figure out by doing a sequence diagram (or something like it)
 	2. API is a bigger/older version of this?
-5. what's YAML?
 6. What's with the Noun fixation?  That's how Tim set it up?
 7. Why talk about RPC if it is deprecated/goofy?
 8. What is up with REST?
@@ -301,8 +300,6 @@
 9. Why talk about GraphQL?
 	1. super flexible for frontend/client
 	2. kind of a nightmare for backend/security
-10. seems like we should have just talked way more about REST... (5.2 slides)
-	1. some examples
 11. We picked Node.js because it's popular and uses JS
 12. You can just install Node instead of NVM, if you don't want to fiddle with versions (Windows can have trouble occasionally).
 13. demo .js file both in chrome and on console (both pasting after running node and making a file and running the file with node)
@@ -311,28 +308,21 @@
 15. what is npm init for?
 	1. don't check node_modules into git (put it in .gitignore)
 16. you can run your code in Code and have it run Node.js to run/debug
-17. in general, you can't run a node.js package in browse, only common ES packages
+17. in general, you can't run a node.js package in browser, only common ES packages
 18. frontend code: debug in browser, backend code: debub in Code/Node.js
 19. Node.js democratized web service development---that's why it was/is cool/changed the world
 20. Express is a nice wrapper of patterns/etc. for building http web servers (like ??? or tailwind for CSS)
 	1. should we call app objects app?
 	2. do we need some more complex examples to show how it really works
 	3. express advertises itself in the autoheader, which is lame and dangerous (gives attackers info)
-21. what is the point of `next` function in middleware callback if it is just called as `next()`?
-	1. why don't all middleware pieces include `next()`?
-	2. why did the public path in the example note have to be explicit in the url?  Caddy?
-22. understand web API stack
 23. `app.use(express.static('public'));` replaces using the liveserver in Code
 	1. new deployment script now
 24. app.router modularizes your endpoints (for organization/understandability/special paths)
-25. super confusing flow today (maybe not the case in the actual slides, because we hopped around)
 26. PM2 is a daemon process that keeps our http server stuff runnig
 	1. auto installed via AMI
 	2. shouldn't have to mess with it
 	3. but should know it's there
 27. recommend not using Windows in general linux/mac is better (don't forget getbash vs. command prompt)
-28. why for services are we now doing static hosting from `public`?
-29. is the Playwrite/UI/backend testing stuff useful to try to include at the level it is?
 	
 # Week 10
 1. Login assignment should be before database assignment because it's similar but probably easier
@@ -491,7 +481,7 @@
 17. Tools like Pingdom will test your performance across the global network
 18. Throttling in the dev tools lets you simulate "realistic"/slow conditions
 	
-#Week14
+# Week14
 1. Kahoot review (should I do this?)
 	1. What kinds of questions are best for these exams?
 2. Demo day (should I do this?)
@@ -507,7 +497,7 @@
 		- overall
 3. Ended one hour (almost one T/Th class period early)
 	
-## Instruction question/notes (why isn't this and below bold in the raw text, but those above are?)
+## Instruction question/notes
 1. AWS
 	- what is TLD (for click server)?
 2. Console
@@ -566,6 +556,14 @@
 	- though the `Promise {<fulfilled>}` output doesn't materialize...???
 26. And the Async/await stuff on slide 25 doesn't work either, of course.
 27. For Async slide 33, this: `Remember that async will auto-generate a promise if not explicitly returned` makes it sound like you don't have to write a Promise into your function, even though the example on the slides shows it that way.  Do you or don't you?  If not, we should show it both ways.
+28. Seems like we should have just talked way more about REST... (5.2 slides)
+	1. some examples
+29. why for services are we now doing static hosting from `public`?
+30. Super confusing flow on REST/CORS day---check it out (maybe not the case in the actual slides, because we hopped around)
+31. Is the Playwrite/UI/backend testing stuff useful to try to include at the level it is?
+
+
+
 	
 	
 ## To Do
@@ -664,7 +662,13 @@
 	```	
 42. What does this mean, from Aysnc slides: "Rule for using await: top level module function or called from an async function"
 43. Need to better understand promises, await, async and the instruction and slides need to better explain it all somehow
-	
+44. What's YAML?
+45. What is the point of `next` function in middleware callback if it is just called as `next()`?
+	1. why don't all middleware pieces include `next()`?
+	2. why did the public path in the example note have to be explicit in the url?  Caddy?
+46. understand web API stack
+
+
 	
 ## Questions for Lee/Mark
 	2. dropped "changing root domain" from course?
@@ -724,6 +728,8 @@
 15. Two main kinds of mistakes: syntax/semantics (no big deal) vs. broken mental model (big deal)
 	1. our goal is to eliminate the second; can't eliminate the first
 	2. if you understand syntax, you can make little local tweaks and minor changes; but if you have a good underlying mental model, you can make large global changes
+
+
 
 ## Assignment stuff
 1. CONSOLE: xxyy
